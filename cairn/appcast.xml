@@ -3,8 +3,21 @@
     <channel>
         <title>Cairn</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 15 Aug 2026 19:55:06 -0700</pubDate>
+            <link>https://p10q.com/cairn/</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://updates.p10q.com/cairn/Cairn-1.0.1.dmg" length="16027494" type="application/octet-stream" sparkle:edSignature="VHkVnbZIpsHVDJ6fHqdi41GdHOVldB0yOztI+OnAj+JNLyQhJRAqaFC/+351kQYV0HaXI3uPWffiAjhhAQOSAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn3-1.delta" sparkle:deltaFrom="1" length="23438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U6mSh+iLcUu+9NLeG4L30n5X5U/iwtGfZ5KGMQ5VDkQMYL2oB6NwdilJDxjZV1P76Es09cQdj2m1FoBQIJIVBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.0</title>
-            <pubDate>Sat, 15 Aug 2026 15:22:38 -0700</pubDate>
+            <pubDate>Sat, 15 Aug 2026 19:44:26 -0700</pubDate>
             <link>https://p10q.com/cairn/</link>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
