@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.1.1 - 2026-08-22
+
+- Made agent integrations explicitly opt-in, with Install, Update, and Repair actions for detected Claude Code and Codex installations.
+- Added first-run and returning-user prompts for reviewing optional agent integrations without changing agent configuration automatically.
+- Improved legacy hook detection and upgrades, and only offers the pi extension when pi is installed.
+- Added a direct trial download action to the license window.
+- Refined workspace panel colors and borders, and changed the default terminal theme to Builtin Light.
+
 ## 1.1.0 - 2026-08-17
 
 - Replaced the five separate workspace views with one unified list beside the active terminal.
