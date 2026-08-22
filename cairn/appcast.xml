@@ -3,6 +3,22 @@
     <channel>
         <title>Cairn</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Sat, 22 Aug 2026 09:10:59 -0700</pubDate>
+            <link>https://p10q.com/cairn/</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://updates.p10q.com/cairn/Cairn-1.1.0.dmg" length="17200178" type="application/octet-stream" sparkle:edSignature="wHtoiIiaxVt+nG22icR2rUR80JqkXNzRqPMq++g2nCuTGuAFteUhSpqqeb6cLTJTBVESx8k4IpFzsTO487JMAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn6-5.delta" sparkle:deltaFrom="5" length="2553722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6X3dymlg+RsRNLUL4P8fPFDgx7xKCh6Z+6JzYw26LZ46E16bidYYbQQethvMBu8X+PVmMv1pAiyVZz2D82QIDg=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn6-4.delta" sparkle:deltaFrom="4" length="2591578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J761rBM3n6jycGKYUsKPbRa0h5ZcOHFtFxm3rvhRiFy7PCk9teYlR6a5+bA4zu55s4iMN/uPGBivGcKpnr/nAg=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn6-3.delta" sparkle:deltaFrom="3" length="2576774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LuKoNbqZxNN677XFMvuOp+RX933c8hjRJOZLFnLr1rMaAjri38B1JI8konZmfHN1/tabM67qjDSaxdIieSovBg=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn6-1.delta" sparkle:deltaFrom="1" length="2577166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o5NhJgAzV/IgAyELsRY+c2e0yOhxaoD3zxnutllLup4qMTocUqG6rv39D1hwFS1RVYfg9+789vVIc2YTpKq/AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Sat, 15 Aug 2026 23:23:37 -0700</pubDate>
             <link>https://p10q.com/cairn/</link>
@@ -29,19 +45,6 @@
             <sparkle:deltas>
                 <enclosure url="https://updates.p10q.com/cairn/Cairn4-3.delta" sparkle:deltaFrom="3" length="953706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5sL3E2KjVwyxjBmSe08vCjVm0QPNJBgjnJ3CJHFSAdHFYT03BHTmyfxFXO4UiWV6AOQofgWRa1+WtbhkGMc1Cg=="/>
                 <enclosure url="https://updates.p10q.com/cairn/Cairn4-1.delta" sparkle:deltaFrom="1" length="953910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RyHpotYLx8ZtMfK8kLacOQShOfgsj4nu/frrcTn2Rxg9FBIbpoNk8XaDWpcRtxYyuKXrKl2BdvgskgMtQCpEDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Sat, 15 Aug 2026 19:55:06 -0700</pubDate>
-            <link>https://p10q.com/cairn/</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/cairn/Cairn-1.0.1.dmg" length="16027494" type="application/octet-stream" sparkle:edSignature="VHkVnbZIpsHVDJ6fHqdi41GdHOVldB0yOztI+OnAj+JNLyQhJRAqaFC/+351kQYV0HaXI3uPWffiAjhhAQOSAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn3-1.delta" sparkle:deltaFrom="1" length="23438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U6mSh+iLcUu+9NLeG4L30n5X5U/iwtGfZ5KGMQ5VDkQMYL2oB6NwdilJDxjZV1P76Es09cQdj2m1FoBQIJIVBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
