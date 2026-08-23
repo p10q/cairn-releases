@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 1.2.0 - 2026-08-22
+
+- Added one shared timeline control for filtering activity, workspaces, live sessions, and session history by time range.
+- Added a dedicated live-sessions section between the workspace list and session history.
+- Made session history easier to scan with compact rows that expand into full details and actions.
+- Added cumulative activity charts and a resizable expanded activity dashboard.
+- Simplified workspace rows into a quieter departures-board layout with clearer section colors and improved light/dark appearance.
+- Improved session coverage by including indexed sessions even when an agent did not write a summary artifact.
+
 ## 1.1.1 - 2026-08-22
 
 - Made agent integrations explicitly opt-in, with Install, Update, and Repair actions for detected Claude Code and Codex installations.
