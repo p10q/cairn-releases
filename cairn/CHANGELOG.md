@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.2.1 - 2026-08-23
+
+- Made the shared timeline recent-first, defaulting to the last 12 hours while keeping plain shells and sessions without timestamps visible.
+- Improved session-history responsiveness by virtualizing rows, especially for workspaces with many recorded sessions.
+- Kept focus mode distraction-free by hiding the usage HUD while the terminal fills the window.
+- Bounded live terminal analysis and made hang reports more accurate and responsive.
+- Improved jump-host tunnel startup reliability by simplifying connection setup and retrying transient first-connection failures.
+
 ## 1.2.0 - 2026-08-22
 
 - Added one shared timeline control for filtering activity, workspaces, live sessions, and session history by time range.
