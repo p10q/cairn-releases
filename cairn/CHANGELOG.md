@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 1.2.2 - 2026-08-23
+
+- Prevented overlapping background refreshes from building up while Cairn monitors busy workspaces and long-running agent sessions.
+- Improved main-thread hang detection so reports use consistent samples and avoid false or stale diagnostics.
+
 ## 1.2.1 - 2026-08-23
 
 - Made the shared timeline recent-first, defaulting to the last 12 hours while keeping plain shells and sessions without timestamps visible.
