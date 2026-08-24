@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.2.3 - 2026-08-24
+
+- Improved list and session-history responsiveness by consolidating background polling and removing expensive transcript discovery from row refreshes.
+- Added lightweight diagnostics for brief input delays, with activity attribution and stack sampling reserved for longer stalls.
+- Improved dark-mode readability across the workspace list and activity views, and removed section tint backgrounds for a cleaner, more consistent panel.
+
 ## 1.2.2 - 2026-08-23
 
 - Prevented overlapping background refreshes from building up while Cairn monitors busy workspaces and long-running agent sessions.
