@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 1.2.4 - 2026-08-25
+
+- Redesigned the workspace list with live sessions beside workspaces and a persistent side panel for faster navigation.
+- Added a master-detail session history with keyboard navigation, clearer details, and more responsive incremental updates.
+- Consolidated remote workspace management on Cairn's PTY service, including provisioning and session lifecycle controls.
+- Improved remote reliability by restoring workspaces automatically and detaching cleanly when an SSH connection drops.
+
 ## 1.2.3 - 2026-08-24
 
 - Improved list and session-history responsiveness by consolidating background polling and removing expensive transcript discovery from row refreshes.
