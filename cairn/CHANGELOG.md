@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 1.2.6 - 2026-08-26
+
+- Security hardening across the app and remote session handling.
+
 ## 1.2.5 - 2026-08-25
 
 - Simplified workspace ordering around recent activity and clarified the List and Hierarchy layouts with mode-specific columns.
