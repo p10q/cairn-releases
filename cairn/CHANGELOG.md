@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.2.5 - 2026-08-25
+
+- Simplified workspace ordering around recent activity and clarified the List and Hierarchy layouts with mode-specific columns.
+- Added an option to view live sessions across every workspace, ordered by their latest update.
+- Updated macOS copy-on-select behavior so selected text is immediately available to standard paste.
+
 ## 1.2.4 - 2026-08-25
 
 - Redesigned the workspace list with live sessions beside workspaces and a persistent side panel for faster navigation.
