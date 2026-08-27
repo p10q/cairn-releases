@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.2.9 - 2026-08-27
+
+- Added Screen Band mode to keep Cairn anchored at the top of the display at a configurable height.
+- Added options to resize other apps into the remaining screen space and keep Cairn above their windows.
+- Fixed side-panel presentation restoration and tightened Screen Band window observation for more reliable positioning.
+
 ## 1.2.8 - 2026-08-26
 
 - Added remote terminal pooling so verified SSH hosts can keep shells and coding agents ready across workspace launches and app restarts.
