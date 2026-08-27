@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.2.8 - 2026-08-26
+
+- Added remote terminal pooling so verified SSH hosts can keep shells and coding agents ready across workspace launches and app restarts.
+- Grouped remote workspaces by machine and improved remote provisioning reliability.
+- Made the session history pane resizable while Activity is collapsed, with its preferred height preserved across restarts.
+
 ## 1.2.7 - 2026-08-26
 
 - Improved workspace activity tracking across split panes so status updates and recency reflect every active agent session.
