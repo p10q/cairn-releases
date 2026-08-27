@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.2.7 - 2026-08-26
+
+- Improved workspace activity tracking across split panes so status updates and recency reflect every active agent session.
+- Refined workspace list column sizing and alignment, especially when digest details are hidden.
+- Fixed the remote task sheet occasionally opening without its selected host.
+
 ## 1.2.6 - 2026-08-26
 
 - Security hardening across the app and remote session handling.
