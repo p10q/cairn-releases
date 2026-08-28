@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.3.0 - 2026-08-27
+
+- Added 20 named workspace color presets, including automatic theme-aware selection, with 64 distinct identity colors per palette.
+- Added a Workspace Colors menu with color swatches and live updates across workspace and activity views.
+- Unified agent status names, colors, sorting, tooltips, and accessibility labels across Cairn.
+- Simplified the side panel around workspace hierarchy and made compact status pills easier to scan.
+- Shortened the terminal-close input guard while preserving protection against repeated Control-C and Control-D presses.
+
 ## 1.2.10 - 2026-08-27
 
 - Expanded Screen Band mode with top, bottom, left, and right placement options.
