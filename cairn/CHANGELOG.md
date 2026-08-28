@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.3.3 - 2026-08-28
+
+- Made new AWS jump hosts ready faster by removing slow package updates from first-boot setup.
+- Added immediate failure detection and clearer recovery guidance when jump-host hardening does not complete.
+- Reapplied current security settings when reusing an existing jump host and refreshed inventory after setup timeouts.
+
 ## 1.3.2 - 2026-08-28
 
 - Isolated AWS jump-host resources per Cairn installation so multiple Macs can safely share one AWS account.
