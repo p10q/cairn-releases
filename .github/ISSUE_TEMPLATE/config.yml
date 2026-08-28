@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: https://p10q.com/cairn/support/
+    about: Get private help with purchases, activation, accounts, or sensitive diagnostics.
+  - name: Security report
+    url: https://p10q.com/cairn/security/
+    about: Report a suspected vulnerability privately.

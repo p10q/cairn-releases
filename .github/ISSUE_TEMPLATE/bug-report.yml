@@ -1,0 +1,87 @@
+name: Bug report
+description: Report something in Cairn that is broken or behaves unexpectedly
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a Cairn problem. This report will be public.
+
+        Do not include terminal contents, license keys, pairing codes, QR-code screenshots, SSH keys, AWS credentials, or other private information. For a report that must remain private, use [Cairn Support](https://p10q.com/cairn/support/).
+
+  - type: input
+    id: version
+    attributes:
+      label: Cairn version
+      description: Find this in Cairn > About Cairn.
+      placeholder: 1.3.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Affected app
+      options:
+        - Cairn for macOS
+        - Cairn for iOS
+        - Both
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      placeholder: macOS 26.0 or iOS 26.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and its impact.
+      placeholder: Tell us what you observed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest sequence of steps that reliably causes the problem.
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. See ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect Cairn to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional context
+      description: Add screenshots or safe diagnostic details after removing private information.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I removed credentials, private terminal contents, and other sensitive information.
+          required: true
