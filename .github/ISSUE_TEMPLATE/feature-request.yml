@@ -1,0 +1,55 @@
+name: Feature request
+description: Suggest an improvement to Cairn
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Cairn. Feature requests are public, so do not include private terminal contents, credentials, license information, or other sensitive details.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Affected app
+      options:
+        - Cairn for macOS
+        - Cairn for iOS
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the workflow, limitation, or recurring task behind the request.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe how you would like Cairn to address the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or additional context
+      description: Share current workarounds, examples from other tools, or relevant screenshots.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a similar request.
+          required: true
+        - label: I removed credentials, private terminal contents, and other sensitive information.
+          required: true
