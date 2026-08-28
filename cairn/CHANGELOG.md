@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 1.3.1 - 2026-08-27
+
+- Fixed active sessions showing a stale elapsed time instead of "now."
+- Corrected workspace status reconciliation so passive lifecycle states do not surface stale attention alerts.
+- Reduced false main-thread hang reports by confirming heartbeat stalls before recording them.
+- Kept main-thread hang history compact while preserving recent diagnostic details.
+
 ## 1.3.0 - 2026-08-27
 
 - Added 20 named workspace color presets, including automatic theme-aware selection, with 64 distinct identity colors per palette.
