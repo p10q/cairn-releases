@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 1.2.10 - 2026-08-27
+
+- Expanded Screen Band mode with top, bottom, left, and right placement options.
+- Refined workspace list interaction with single-click activation, clearer agent status colors, and per-section activity timelines.
+- Improved detection and presentation of coding-agent waiting and user-input states.
+- Added a short safety guard so repeated Control-C or Control-D presses after closing a terminal do not spill into the terminal that receives focus.
+
 ## 1.2.9 - 2026-08-27
 
 - Added Screen Band mode to keep Cairn anchored at the top of the display at a configurable height.
