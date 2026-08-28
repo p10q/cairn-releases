@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.3.2 - 2026-08-28
+
+- Isolated AWS jump-host resources per Cairn installation so multiple Macs can safely share one AWS account.
+- Added guided AWS CLI setup, credential verification, and clearer sign-in recovery in Jump Host settings.
+- Added jump-host inventory controls to adopt, remove, or fully clean up Cairn resources while preserving infrastructure still used by another Mac.
+
 ## 1.3.1 - 2026-08-27
 
 - Fixed active sessions showing a stale elapsed time instead of "now."
