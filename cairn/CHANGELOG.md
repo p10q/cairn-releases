@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.3.4 - 2026-08-29
+
+- Added a WORKSPACE column to Session History so you can scan which workspace each session belongs to and sort by it.
+- Bundled a background Chrome bridge with automatic browser selection that is aware of already-running browsers, clearer install guidance, and reload-state detection.
+- Introduced compact hierarchy tabs with directory-grouped ⌘⌥ navigation, and wrapped long compact headings so they stay readable.
+- Showed all workspace wires faintly on the canvas while emphasizing the selected and hovered connections.
+- Streamlined remote host authentication and warm launches, and trimmed redundant canvas layout and reparse work for smoother interaction.
+
 ## 1.3.3 - 2026-08-28
 
 - Made new AWS jump hosts ready faster by removing slow package updates from first-boot setup.
