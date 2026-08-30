@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 1.4.0 - 2026-08-30
+
+- Added a window arrangement control for choosing automatic, one-, two-, or three-window layouts within the available screen area.
+- Improved the app shelf with separate open and minimized rows, clearer window states, focused-window promotion, and compact layouts that scale across display sizes.
+- Scoped window management to the active space and display so windows elsewhere remain available without being tiled or minimized.
+- Added live activity status for plain terminals and responsive layouts for narrow workspace, session history, and activity panels.
+- Paused iOS Remote reconnects while backgrounded and improved recovery when returning to the foreground or connecting over slower networks.
+- Preserved macOS Accessibility permission across reinstalls and separated macOS framework builds from the universal iOS framework.
+
 ## 1.3.6 - 2026-08-30
 
 - Expanded screen bands with top, bottom, left, right, and full half-band placements for more flexible workspace layouts.
