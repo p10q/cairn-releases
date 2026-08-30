@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 1.4.1 - 2026-08-30
+
+- Added inline canvas controls for managed windows and Dock visibility, with clearer active states and a new Cairn icon for Stay Awake.
+- Fixed screen-band sizing after changing Dock visibility and made restoring minimized windows from the app shelf more reliable.
+- Kept overflow windows available in a background stack instead of minimizing them, with recently focused windows promoted into visible slots.
+
 ## 1.4.0 - 2026-08-30
 
 - Added a window arrangement control for choosing automatic, one-, two-, or three-window layouts within the available screen area.
