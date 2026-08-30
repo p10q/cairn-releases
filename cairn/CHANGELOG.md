@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.3.5 - 2026-08-29
+
+- Added screen-band controls to the workspace list and automatically fit focused windows around the selected bands.
+- Added a Command-B side-panel toggle, a collapsible live-sessions column, and lower background work while those sections are hidden.
+- Refined compact workspace tabs with clearer pills, selectable wire display modes, and completion badges for sessions that finished out of view.
+- Improved active, blocked, and completed session detection so workspace status and alerts stay accurate.
+- Hardened remote tunnel recovery and main-thread watchdog sampling for more reliable long-running sessions.
+
 ## 1.3.4 - 2026-08-29
 
 - Added a WORKSPACE column to Session History so you can scan which workspace each session belongs to and sort by it.
