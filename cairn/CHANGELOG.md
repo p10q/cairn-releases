@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.3.6 - 2026-08-30
+
+- Expanded screen bands with top, bottom, left, right, and full half-band placements for more flexible workspace layouts.
+- Added adaptive tiling for multiple app windows in the free screen area, including controls to focus, promote, or release managed windows.
+- Added an option to auto-hide the macOS Dock while Cairn manages the screen and restore it when management ends.
+- Added a Window menu toggle for showing or hiding Cairn window shadows.
+- Hardened the shared Apple framework build and signing flow used by Cairn's macOS and iOS targets.
+
 ## 1.3.5 - 2026-08-29
 
 - Added screen-band controls to the workspace list and automatically fit focused windows around the selected bands.
