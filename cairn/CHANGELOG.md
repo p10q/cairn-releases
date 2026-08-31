@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 1.4.2 - 2026-08-30
+
+- Fixed copy and paste between terminal splits by keeping the clicked pane's focus synchronized and routing context-menu actions to the pane that opened the menu.
+- Added a distinct recoverable interruption state for agent stream disconnects, which clears automatically when visible work resumes.
+- Improved screen-band window ordering across reflows, Dock changes, shelving, and drag swaps.
+- Hardened iOS remote reconnect and frame-receive concurrency during network transitions.
+
 ## 1.4.1 - 2026-08-30
 
 - Added inline canvas controls for managed windows and Dock visibility, with clearer active states and a new Cairn icon for Stay Awake.
