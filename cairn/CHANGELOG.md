@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.4.3 - 2026-09-03
+
+- Improved the workspace sidebar on narrow screen bands by stacking crowded sections, wrapping controls, and using the available vertical space.
+- Fixed temporary overlap when opening the Activity dashboard and kept workspace, live-session, and utility regions from drawing over one another.
+- Kept managed-app icons and screen-band controls accessible at the bottom of narrow sidebars.
+- Replaced automatic window rearrangement with explicit layout presets, so Cairn only moves windows when you choose a layout.
+- Fixed screen-band positioning when the Dock auto-hides and macOS temporarily stops reporting its frame.
+
 ## 1.4.2 - 2026-08-30
 
 - Fixed copy and paste between terminal splits by keeping the clicked pane's focus synchronized and routing context-menu actions to the pane that opened the menu.
