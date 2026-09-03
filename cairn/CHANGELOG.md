@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 1.4.4 - 2026-09-03
+
+- Added remote workspace preflight checks, automatic reconnects, and actionable recovery controls when a host, setup, or working directory needs attention.
+- Added live remote-session inventory with filtering, workspace opening, and controls for stopping individual or grouped sessions.
+- Improved remote terminal reliability by preserving in-flight input during reconnects, validating keeper startup, and fixing process and pipe cleanup edge cases.
+- Improved performance across workspace activity and session history by coalescing refreshes, caching repeated parsing and formatting work, and reducing unnecessary polling.
+- Refined accessibility, typography, spacing, empty states, and keyboard behavior throughout the workspace, history, onboarding, and remote-host interfaces.
+
 ## 1.4.3 - 2026-09-03
 
 - Improved the workspace sidebar on narrow screen bands by stacking crowded sections, wrapping controls, and using the available vertical space.
