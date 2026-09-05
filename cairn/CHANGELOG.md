@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 1.5.0 - 2026-09-05
+
+- Added adjustable screen-band layouts and moved Accessibility-based window scanning and placement off the main thread for smoother window management.
+- Added a system watchdog and expanded the resource monitor with sustained per-process history, launch-aware tracking, and guarded process controls.
+- Added context-aware workspace creation from iOS and new session actions for opening or forking work into a split or workspace.
+- Improved iOS Remote reconnect behavior, SSH tunnel recovery, workspace navigation, and foreground resume reliability.
+- Made the managed-window shelf collapsible and consolidated browser controls under the Window menu.
+- Updated the upstream terminal engine with broad search, clipboard, rendering, memory-use, compatibility, and reliability improvements.
+
 ## 1.4.4 - 2026-09-03
 
 - Added remote workspace preflight checks, automatic reconnects, and actionable recovery controls when a host, setup, or working directory needs attention.
