@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.0.1 - 2026-09-06
+
+- Added a native Plugins panel for installing, reloading, inspecting, and removing extensions without leaving Cairn.
+- Added per-plugin capability controls, runtime status, contribution summaries, and actionable discovery errors for invalid plugins.
+- Added workflow-focused canvas presets for all panels, window management, fleet launch, and fleet monitoring alongside the existing basic layouts.
+- Improved narrow dock panes by collapsing the panel type chooser to an icon with an accessible tooltip when space is tight.
+
 ## 2.0.0 - 2026-09-06
 
 - Redesigned Cairn around a persistent dockable workspace with split and stacked layouts, configurable presets, drag-and-drop panels, keyboard navigation, and dedicated panels for workspaces, live sessions, activity, history, usage, and remote hosts.
