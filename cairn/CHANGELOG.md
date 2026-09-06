@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.0.2 - 2026-09-06
+
+- Added multi-selection to the workspace navigator for opening, forking, and closing several workspaces together.
+- Added in-app web viewing on iPhone and iPad for links opened from remote terminal sessions, carried through the existing secure host connection.
+- Improved Cairn Remote with workspace split diagrams, unread activity indicators, more reliable scroll-tail behavior, and safer agent integration isolation.
+- Improved compact dock layouts for remote hosts, jump hosts, resource monitoring, and activity views, and updated the remote PTY service to v0.2.0.
+
 ## 2.0.1 - 2026-09-06
 
 - Added a native Plugins panel for installing, reloading, inspecting, and removing extensions without leaving Cairn.
