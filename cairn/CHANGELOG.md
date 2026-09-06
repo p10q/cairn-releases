@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.0.0 - 2026-09-06
+
+- Redesigned Cairn around a persistent dockable workspace with split and stacked layouts, configurable presets, drag-and-drop panels, keyboard navigation, and dedicated panels for workspaces, live sessions, activity, history, usage, and remote hosts.
+- Added a scalable remote-fleet control plane with bounded discovery, session catalogs, repair plans, reconnect policies, richer host health summaries, and faster context-aware workspace launches.
+- Added a process-isolated plugin platform and local developer API with explicit permissions, custom panels, event subscriptions, build monitoring, a Swift command-line client, and a generated developer portal.
+- Rebuilt session history on SQLite with indexed search, structured activity records, cleaner titles, attachment and machine-payload filtering, and bounded background indexing.
+- Improved live-session navigation with receiver routing, preserved execution state, process-backed liveness, workspace context menus, configurable navigator sorting, and open-or-fork actions that carry terminal selection context.
+- Reduced idle and refresh CPU use by eliminating leaked cursor timers, caching process-session scans, bounding transcript work, and avoiding unnecessary full-text-search backfills.
+- Removed the legacy Project menu and consolidated workspace, browser, and layout controls around the new dock-based workflow.
+
 ## 1.5.0 - 2026-09-05
 
 - Added adjustable screen-band layouts and moved Accessibility-based window scanning and placement off the main thread for smoother window management.
