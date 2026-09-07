@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.1.1 - 2026-09-07
+
+- Improved Quick Agent launcher legibility by automatically choosing dark or light selected-row text and icons for the current accent color and appearance.
+
 ## 2.1.0 - 2026-09-07
 
 - Added always-on host load monitoring that pauses speculative terminal warm-up during sustained CPU contention while keeping user-initiated launches responsive.
