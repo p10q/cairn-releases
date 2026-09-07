@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.1.0 - 2026-09-07
+
+- Added always-on host load monitoring that pauses speculative terminal warm-up during sustained CPU contention while keeping user-initiated launches responsive.
+- Expanded Resource Monitor with host-load, runnable-process, and zombie-process detail, plus optional notifications and cleanup of obsolete Cairn helper processes during severe overload.
+- Made the repeated Control-C/D close guard configurable from the Window menu with 1, 2, 3, and 5 second durations, and fixed bare Control-C/D events so they reliably reach the terminal.
+- Improved dock responsiveness with targeted panel refreshes, fewer unnecessary layout commits, and cheaper workspace-pill sizing.
+- Improved large session-history updates and live activity timestamps while reducing blocking Keychain writes and repeated text-processing work.
+
 ## 2.0.2 - 2026-09-06
 
 - Added multi-selection to the workspace navigator for opening, forking, and closing several workspaces together.
