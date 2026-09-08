@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.2.2 - 2026-09-08
+
+- Added unified window-management controls for arranging Cairn and browser windows, with adaptive layouts and more stable reflow as screens and panels change.
+- Added stay-awake controls to Cairn Remote so an iPhone or iPad can keep the connected Mac awake during a remote session.
+- Made workspace arrow navigation follow the active navigator's current filtering and sorting.
+- Improved remote port-forward diagnostics with captured errors, bounded retries, cancellation controls, and a watchdog for connections stuck at “Connecting…”.
+- Fixed compact window-management panels so overflowing content scrolls instead of overlapping other controls.
+
 ## 2.2.1 - 2026-09-08
 
 - Expanded the workspace navigator with keyboard navigation, route-synchronized selection, configurable detail levels, and more predictable workspace cycling.
