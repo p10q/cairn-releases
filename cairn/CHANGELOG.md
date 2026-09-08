@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.2.1 - 2026-09-08
+
+- Expanded the workspace navigator with keyboard navigation, route-synchronized selection, configurable detail levels, and more predictable workspace cycling.
+- Added composable pane layouts and remote pane launching, with more reliable working-directory handling for remote workspaces and splits.
+- Added automatic local port forwarding for remote folders and development servers, including remote HTML preview serving through Cairn's secure host connection.
+- Added a local developer control API and MCP interface for inspecting and controlling Cairn workspaces, panels, and actions.
+- Improved live workspace status timing, panel redraws after dock moves, and remote-split probing behavior.
+- Improved Cairn Remote connection reliability with staged EICE/SSH deadlines and clearer split diagrams for deeply nested layouts.
+
 ## 2.2.0 - 2026-09-08
 
 - Improved remote host launching by detecting coding agents through interactive login shells and clearly separating host repair state from ready warm-pool sessions.
