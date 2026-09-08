@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.2.0 - 2026-09-08
+
+- Improved remote host launching by detecting coding agents through interactive login shells and clearly separating host repair state from ready warm-pool sessions.
+- Made remote workspace directories host-aware: new launchers default to the remote home directory, remember successful directories per host, and no longer carry a local Mac home path onto Linux hosts.
+- Made clean remote process exits close their split and the final workspace while preserving reconnect behavior for unexpected SSH or transport failures.
+- Simplified Remote Hosts management and made helper shutdown more reliable during login-shell startup.
+- Added a Needs You attention queue to the iOS Remote app, improved split visibility, and accelerated stale-session reconnection.
+
 ## 2.1.1 - 2026-09-07
 
 - Improved Quick Agent launcher legibility by automatically choosing dark or light selected-row text and icons for the current accent color and appearance.
