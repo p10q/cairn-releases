@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 2.2.4 - 2026-09-09
+
+- Improved workspace navigator status accuracy when visible terminal panes are active before their live session bindings are available.
+- Fixed empty terminal selections incorrectly clearing the existing clipboard contents.
+- Fixed recent main-thread hangs during window activation, canvas refreshes, and workspace status updates.
+
 ## 2.2.3 - 2026-09-09
 
 - Added a secure remote file browser for forwarded folders, with stable browser URLs, clearer connection progress, bounded filename and content search, and safer handling of paths and rendered output.
