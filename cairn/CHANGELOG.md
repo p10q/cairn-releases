@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 2.2.3 - 2026-09-09
+
+- Added a secure remote file browser for forwarded folders, with stable browser URLs, clearer connection progress, bounded filename and content search, and safer handling of paths and rendered output.
+- Fixed a renderer deadlock that could freeze Cairn while macOS display topology changed.
+
 ## 2.2.2 - 2026-09-08
 
 - Added unified window-management controls for arranging Cairn and browser windows, with adaptive layouts and more stable reflow as screens and panels change.
