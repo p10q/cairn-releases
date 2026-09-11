@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.3.0 - 2026-09-11
+
+- Reworked the workspace navigator with clearer live-session summaries, wider cards, workspace-aware naming, goal-age status, and coordinated directory colors across sessions and splits.
+- Refined dock and window management with a more compact layout, stable companion windows, explicit free-space drop zones, and smoother motion that keeps workspace panels visually anchored.
+- Added guided host recovery to Resource Monitor, clearer remote-startup failures, and automatic health monitoring for SSH port forwards.
+- Improved the remote file browser with Cairn-aware theming, safer tunnel handling, bounded search, and support for forwarded folders reached through top-level symlinks.
+- Refreshed the Cairn app icon and removed retired canvas and history paths to simplify the app and improve reliability.
+
 ## 2.2.4 - 2026-09-09
 
 - Improved workspace navigator status accuracy when visible terminal panes are active before their live session bindings are available.
