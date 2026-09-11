@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 2.3.1 - 2026-09-11
+
+- Keep directory colors stable as workspaces and folders are added, so established visual identities no longer shift unexpectedly.
+- Refresh live agent activity directly from terminal changes for faster, more accurate navigator and canvas status.
+- Update elapsed-time labels continuously and use clearer “running” status wording throughout the workspace interface.
+
 ## 2.3.0 - 2026-09-11
 
 - Reworked the workspace navigator with clearer live-session summaries, wider cards, workspace-aware naming, goal-age status, and coordinated directory colors across sessions and splits.
