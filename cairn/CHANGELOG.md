@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.3.2 - 2026-09-11
+
+- Keep local pane working directories current after shell directory changes, including shells that do not report OSC 7.
+
 ## 2.3.1 - 2026-09-11
 
 - Keep directory colors stable as workspaces and folders are added, so established visual identities no longer shift unexpectedly.
