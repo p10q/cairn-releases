@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.3.3 - 2026-09-12
+
+- Pin important workspace panes so they stay in place and appear first in the Navigator.
+- Jump directly to the exact terminal session from Needs You alerts and notifications.
+- Make completed-agent notifications clearer, keep the Dock badge aligned with Needs You, and remove resolved notifications.
+- Show concurrent coding-agent sessions together in Navigator workspace summaries, making parallel work and the session that needs attention easier to distinguish.
+- Make multi-directory workspace rows easier to scan with adaptive heights and concise directory names.
+- Ask whether a new terminal should open locally or on the connected host when it is created from a remote workspace.
+- Show the active macOS sleep policy inside Remote > Stay Awake, with shortcuts to the relevant system settings.
+- Refine the Cairn icon with a warmer, clearer background and a more balanced touching-stone composition across macOS, iOS, the website, and storefront artwork.
+
 ## 2.3.2 - 2026-09-11
 
 - Keep local pane working directories current after shell directory changes, including shells that do not report OSC 7.

@@ -3,6 +3,23 @@
     <channel>
         <title>Cairn</title>
         <item>
+            <title>2.3.3</title>
+            <pubDate>Fri, 11 Sep 2026 20:42:34 -0700</pubDate>
+            <link>https://p10q.com/cairn/</link>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>2.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://updates.p10q.com/cairn/Cairn-2.3.3.dmg" length="22143068" type="application/octet-stream" sparkle:edSignature="4jrNJ5EQyK9dRLeIPUrTq6jxV2m7HwQpTzc0v9jdLDFUB4/Z+0wxo19HnKnlWZr0E6+qk6TXP7ekNhPNNYp/Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn45-44.delta" sparkle:deltaFrom="44" length="2176934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="40a0sLhInIhoTQKsZ+ZaeCKB/RcmZuDwc5al3fDbfstlhS4GMunbJMQ/sMs7DcJV1SPTMHiCHt0bg4356jbjBg=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn45-43.delta" sparkle:deltaFrom="43" length="2217222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3CXw7KDJI/Uzix988CjsKsSGPC3u2Z2EyBG6FfBx1kUlRRCs9FHM/NGFdKtcza8ELihhqHyUuPzRKOEV1t3NBw=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn45-42.delta" sparkle:deltaFrom="42" length="2374250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ks5VhvmoVRFONiozYQY5jSW0OPx0QhBfu9icXpEqzIDDDIUq2YF4bLHsM2aMDtm0mGTFpzZUHsg+toGHEQsxCw=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn45-41.delta" sparkle:deltaFrom="41" length="3268090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="le3mpfomxhgCOlenP3znNsC/UsOqCgSIzc13bnwmwO1FLxK1/zyCCvOoUSHttS0QR06j9PlyYiWmFROZpuKHDg=="/>
+                <enclosure url="https://updates.p10q.com/cairn/Cairn45-40.delta" sparkle:deltaFrom="40" length="3291058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cXTGRxE0XeiqNN3bI0bJEEuj18aCLCqpa1oQXbn6rN/4w9qOXIETtdNRXbyoWSI5y7prPXowkPA4sbn4BeKDCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.2</title>
             <pubDate>Thu, 10 Sep 2026 23:00:03 -0700</pubDate>
             <link>https://p10q.com/cairn/</link>
@@ -34,23 +51,6 @@
                 <enclosure url="https://updates.p10q.com/cairn/Cairn43-40.delta" sparkle:deltaFrom="40" length="3559510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CnYr0HLxaL2wcm34gQNWaVtSnYR3o8jXSF7uHldoIE1j2PowBkKuy5Uc31qnZFUzEI65GABK1ScWs0xClw+WBQ=="/>
                 <enclosure url="https://updates.p10q.com/cairn/Cairn43-39.delta" sparkle:deltaFrom="39" length="3845422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+jT2ErynmChGyoE9OBow5O1Mw+cLAZEs1rzBjKgdbGENKMkHKohySi5SbpQ0ZyNtpor5n2YFYOLN8cQCW9WGCQ=="/>
                 <enclosure url="https://updates.p10q.com/cairn/Cairn43-38.delta" sparkle:deltaFrom="38" length="20929010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lP2HJyUDDSD7xf0SeP8vunEWVSIyjn1SSXzdcqQK0NGa/m/8zKavQ4uOC/vIsx7e/miKsCDBZJNc5JrDwuyUAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.3.0</title>
-            <pubDate>Thu, 10 Sep 2026 20:30:19 -0700</pubDate>
-            <link>https://p10q.com/cairn/</link>
-            <sparkle:version>42</sparkle:version>
-            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/cairn/Cairn-2.3.0.dmg" length="22516939" type="application/octet-stream" sparkle:edSignature="OHKQvoZt3PAzy7rKVOLKadgDQlz18yEDrr5bDHsPwQcyC8plHAWSeOKJ6LmApt6MqtezMnhg07iiuLd0XjC0BQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn42-41.delta" sparkle:deltaFrom="41" length="3239378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7lxZyVpUZhg7dgYcIX7Z0HtycwZRA+Gi9kSvEMo5qPl+3g4dzD3AoY6MhnJD3gZzv8xFqFlJ28JJlIzlwYbkAA=="/>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn42-40.delta" sparkle:deltaFrom="40" length="3278558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CGf1qaYGe6RPzC9Fh3KQWe45cIVoxKDSfA3F5uE7O0F1KCfMszu0l1ldpiAE7JHLFcnovTLZThwsnhyPp3agAA=="/>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn42-39.delta" sparkle:deltaFrom="39" length="3595958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bVE9OKlD496nzNKRoB9GRbbFK01P18jgIKIMFdBuXbR8aShR6C6w5IkGZiA050isoW0zWSVo9jQAaVcfnF2SDA=="/>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn42-38.delta" sparkle:deltaFrom="38" length="20647346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DGNklCLWFHGrp23kNZ/hgKACZmnAZd7pt1Lm8guI9JuUc2yWxgnVi1XkByOjBIS7V2/kaAu/urbHIKIyRrU8CA=="/>
-                <enclosure url="https://updates.p10q.com/cairn/Cairn42-37.delta" sparkle:deltaFrom="37" length="3998590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p0ERAtHWs13N7wYZdQWxjvJqiOQOdomwa5x7FfKQXFsaIvUEcMJKat3LnuFxhQQUXcBygEcZ8LQoimmYHVE4DA=="/>
             </sparkle:deltas>
         </item>
     </channel>
