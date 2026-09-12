@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 2.3.4 - 2026-09-12
+
+- Simplify dock layouts by retiring the Usage and Layout Controls panes and replacing the split menu with direct Split Right and Split Below actions.
+- Make Needs You rows respond reliably when clicking their labels, status, or detail text.
+
 ## 2.3.3 - 2026-09-12
 
 - Pin important workspace panes so they stay in place and appear first in the Navigator.
