@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.4.0 - 2026-09-13
+
+- Add rich native plugin panes with responsive metrics, charts, tables, controls, and a new activity API, plus installable developer examples.
+- Keep Needs You events across acknowledgements and app relaunches, show earlier events as muted history, and let historical rows recover their workspaces on Mac and iPhone.
+- Add session-fork actions to live-session panes and terminal context menus, targeting the exact selected terminal when creating a new workspace or split.
+- Move agent transcript discovery off the main thread to prevent workspace updates from freezing the interface.
+- Keep reserved alert colors distinct from quiet workspace colors so attention states remain immediately recognizable.
+
 ## 2.3.4 - 2026-09-12
 
 - Simplify dock layouts by retiring the Usage and Layout Controls panes and replacing the split menu with direct Split Right and Split Below actions.
