@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.5.0 - 2026-09-13
+
+- A license key is required when Cairn first opens; there is no trial in this release.
+- Keep valid legacy Cairn license keys working alongside active monthly Gumroad memberships.
+- Add the durable orchestration runtime for standing-agent workflows, approvals, scheduling, recovery, and remote execution.
+- Replace session-history polling with native events and improve workspace opening, selection, and session-fork reliability.
+- Keep inactive render targets parked without blocking the renderer.
+
 ## 2.4.1 - 2026-09-13
 
 - Make New Workspace actions on iPhone and iPad route reliably from global, folder, and workspace entry points, with stronger fallback behavior and expanded regression coverage.
