@@ -1,21 +1,14 @@
-# Cairn releases and feedback
+# Cairn support and updates
 
-This repository hosts the public update feed and release downloads for
-[Cairn](https://p10q.com/cairn/).
+This repository supports existing and invited Cairn users. Initial access is
+provided directly by p10q.
 
-## Feedback
+- [Support](https://p10q.com/cairn/support/)
+- [Security reports](https://p10q.com/cairn/security/)
+- [Release notes](cairn/CHANGELOG.md)
 
-- [Report a bug](https://github.com/p10q/cairn-releases/issues/new?template=bug-report.yml)
-- [Request a feature](https://github.com/p10q/cairn-releases/issues/new?template=feature-request.yml)
-- [Browse existing feedback](https://github.com/p10q/cairn-releases/issues)
+GitHub issues are public. Do not include license keys, terminal contents,
+credentials, pairing codes, or other private information.
 
-GitHub issues are public. For purchases, activation, account questions, or
-anything containing sensitive information, use
-[Cairn Support](https://p10q.com/cairn/support/). Suspected vulnerabilities
-should be reported through the
-[Cairn security page](https://p10q.com/cairn/security/).
-
-## Updates
-
-The Sparkle update feed and release artifacts are served from
-[`updates.p10q.com/cairn/`](https://updates.p10q.com/cairn/).
+Update artifacts are intentionally unlisted. Do not add a latest-DMG alias or
+publish direct artifact links here.
