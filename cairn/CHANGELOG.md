@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.4.1 - 2026-09-13
+
+- Make New Workspace actions on iPhone and iPad route reliably from global, folder, and workspace entry points, with stronger fallback behavior and expanded regression coverage.
+
 ## 2.4.0 - 2026-09-13
 
 - Add rich native plugin panes with responsive metrics, charts, tables, controls, and a new activity API, plus installable developer examples.
