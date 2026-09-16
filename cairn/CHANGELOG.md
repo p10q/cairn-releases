@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.6.1 - 2026-09-16
+
+- Improve agent-room replies and follow-ups, with richer Markdown, tables, images, code blocks, and native Mermaid flowcharts in agent messages and results.
+- Add a retro changelog arcade to About Cairn.
+- Make plugin panels more resilient with configurable request timeouts, optional built-in titles, and better wrapping for long values.
+- Expand Unlazy Progress to discover root-level workspace ledgers and handle larger workspaces with clearer filtering.
+- Reduce main-thread stalls during display changes, permission checks, process-history updates, workspace lookup and path display, and session-history parsing.
+
 ## 2.6.0 - 2026-09-16
 
 - Add native agent rooms for durable multi-agent work, with guided setup, workspace placement, cross-host routing, replies, reattachment, milestones, artifacts, approvals, and recovery when a run is interrupted.
