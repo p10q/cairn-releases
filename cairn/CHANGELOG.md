@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.6.0 - 2026-09-16
+
+- Add native agent rooms for durable multi-agent work, with guided setup, workspace placement, cross-host routing, replies, reattachment, milestones, artifacts, approvals, and recovery when a run is interrupted.
+- Add native agent and plugin libraries, including safe package import, guided local agent creation, richer plugin panes, and automatic updates for bundled plugins.
+- Expand governed orchestration with durable event streams, credential binding, usage accounting, bounded subscriptions, supervised ACP runtimes, and reliable cleanup when participant runs finish.
+- Add the bundled Unlazy Progress experience with workspace-aware pipeline views, plan and gate inspection, filtering, sorting, calendar context, and worktree actions.
+- Improve Fleet with first-run onboarding, clearer crew and workflow creation, durable workspace identity, tracked task dispatch across hosts, and a dedicated Tasks panel.
+- Add local shell splits alongside remote workspaces, restore the last focused workspace on relaunch, and harden the app against monitor-disconnect freezes, stale plugin connections, and orchestration failures.
+
 ## 2.5.0 - 2026-09-13
 
 - A license key is required when Cairn first opens; there is no trial in this release.
