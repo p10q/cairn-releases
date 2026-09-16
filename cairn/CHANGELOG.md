@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.6.2 - 2026-09-16
+
+- Add a governed local AI workforce with 108 discoverable specialist definitions, a Chief of Staff drafting flow, strict local agent-package imports, and explicit review before agents can be enabled.
+- Unify local agent creation in the Agent Library with guided starter, workforce, specialist-draft, and package-import paths that begin without inherited tools or credentials.
+- Improve native Mermaid flowcharts in agent rooms with clearer directional layout, edge routing, labels, node shapes, and accessibility descriptions.
+- Theme About Cairn from the selected terminal preset, with contrast-aware semantic colors and live updates when the theme changes.
+
 ## 2.6.1 - 2026-09-16
 
 - Improve agent-room replies and follow-ups, with richer Markdown, tables, images, code blocks, and native Mermaid flowcharts in agent messages and results.
