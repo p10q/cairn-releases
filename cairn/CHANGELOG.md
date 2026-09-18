@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.7.0 - 2026-09-18
+
+- Rework agent rooms into a focused Chats experience with archive browsing, restored conversations, persistent drafts, live execution traces, clearer stop controls, and safer recovery of interrupted or completed terminal sessions.
+- Add native memory, review, and evidence foundations, including scoped retrieval, retention controls, correction previews, outcome packet inspection and export, operation timelines, and honest Needs You re-entry summaries.
+- Add local work search across workspace history and standing-agent work items, with direct activation from results.
+- Expand the Agent Library with editable local agents, governed routines, improved package trust handling, and better navigation from rooms.
+- Improve operator visibility with budget attribution, projection health, worktree guidance, release proof, and Git-based friction analysis.
+- Harden the agent and plugin runtimes with workspace-contention preflight, corrupt-store recovery, push-driven plugin refresh, stricter process isolation, and broad responsiveness and maintainability improvements.
+
 ## 2.6.2 - 2026-09-16
 
 - Add a governed local AI workforce with 108 discoverable specialist definitions, a Chief of Staff drafting flow, strict local agent-package imports, and explicit review before agents can be enabled.
