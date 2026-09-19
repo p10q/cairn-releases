@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.7.1 - 2026-09-19
+
+- Rebuild Chats around a durable command/query engine with live local, remote, SSH, and simulated runtime adapters, richer execution traces, and broader scenario and UI test coverage.
+- Make approvals and human-input requests resolve through the canonical agent runtime, while trusted tool calls proceed without redundant confirmation prompts.
+- Improve interrupted-run recovery after agent service reconnects and make follow-up messages reliably interrupt work that is still active.
+- Fix terminal sizing after split-layout changes and harden agent event storage and duplex connections.
+- Clarify the bundled Unlazy progress view with a cleaner hierarchy, more accurate status presentation, and simpler activity cards.
+
 ## 2.7.0 - 2026-09-18
 
 - Rework agent rooms into a focused Chats experience with archive browsing, restored conversations, persistent drafts, live execution traces, clearer stop controls, and safer recovery of interrupted or completed terminal sessions.
