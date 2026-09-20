@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.8.0 - 2026-09-20
+
+- Add agent mentions and explicit room-memory commands, including autocomplete for installed agents and `@memory`, `@work-memory`, and `@personal-memory` flows for recording, loading, searching, and reviewing memory.
+- Expand Chats with durable terminal-reply projection, run transcripts, multi-select room actions, safe archive cleanup, richer dispatch diagnostics, and more reliable recovery after interrupted or stale runs.
+- Bring the room-based agent experience to Cairn iOS and improve local and remote runtime coverage with provider smoke tests and broader accessibility journeys.
+- Improve agent-room and Fleet responsiveness by moving runtime probes and store work off the main thread, caching row sources, and tightening ACP lifecycle diagnostics.
+- Refresh Cairn's visual identity with richer stone-avatar and app-icon gradients, and make the macOS codebase easier to evolve by splitting stable domains into focused Swift modules.
+
 ## 2.7.1 - 2026-09-19
 
 - Rebuild Chats around a durable command/query engine with live local, remote, SSH, and simulated runtime adapters, richer execution traces, and broader scenario and UI test coverage.
