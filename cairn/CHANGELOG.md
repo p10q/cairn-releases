@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.10.0 - 2026-09-21
+
+- Make the proprietary macOS app free to download and use without a license key. Cairn Remote remains a separate $19.99 App Store purchase for iPhone and iPad.
+
 ## 2.9.0 - 2026-09-21
 
 - Reopen Cairn as a public beta with a $19.99 one-time macOS license, public signed downloads, and continued support for existing license keys.
