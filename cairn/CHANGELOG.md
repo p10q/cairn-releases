@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.10.3 - 2026-09-21
+
+- Make the Chief of Staff the default starting point for new missions, with one persistent mission space, thread-scoped context, configurable local or remote placement, and reviewable specialist-team recommendations.
+- Let Cairn Remote create chat rooms from iPhone and iPad and start work through the existing authenticated remote connection.
+- Show live agent progress inside message threads and streamline navigation between chats, tasks, runs, workspaces, and outcome evidence.
+- Open terminal file links in the correct local workspace or mapped remote host.
+- Simplify first-run setup and remove an unnecessary launcher authority confirmation step.
+
 ## 2.10.2 - 2026-09-21
 
 - Security updates.
