@@ -2,11 +2,7 @@
 
 ## 2.10.1 - 2026-09-21
 
-- Hardens the public app and DMG against accidental inclusion of private workstation, employer, credential, and build-path data.
-- Strips release symbols and debug metadata from native helpers and validates every packaged resource against its recorded digest and provenance.
-- Pins and verifies the bundled browser bridge, including its open-source notice.
-- Limits newly paired jump-host credentials to 30 days and narrows their AWS permissions to the selected instance, address, and SSH port.
-- Removes unnecessary direct-distribution privacy entitlements and strengthens SSH host-key verification during jump-host setup.
+- Security updates.
 
 ## 2.10.0 - 2026-09-21
 
@@ -380,4 +376,3 @@
 - Added per-workspace session history with prompts, results, observed files, agent-reported validation, duration, turns, tool use, and token metrics when available.
 - Added inline saved transcripts and file-level Git diffs when captured.
 - Improved remote session reliability by reconnecting automatically after attach backpressure.
-
