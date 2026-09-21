@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.9.0 - 2026-09-21
+
+- Reopen Cairn as a public beta with a $19.99 one-time macOS license, public signed downloads, and continued support for existing license keys.
+- Add a native Worktree Manager with repository discovery, target selection, composable status filters, bulk actions, and clearer guidance for active development branches.
+- Add the Build Steward plugin and shared build queue visibility, with accurate build status, recency, navigation, and diagnostics for queued or blocked work.
+- Expand Chats with threads, guidance controls, live agent progress, compact layouts, browser-opening document links, faster replies, and more reliable terminal snapshot handling.
+- Unify the Memory Library around a searchable hierarchical browser, and improve the Agent Library with simpler taxonomy plus explicit model and execution-style choices.
+- Add a remote development launchpad, make Cairn iOS room-first, and harden room creation, event delivery, orchestration recovery, crash diagnostics, and main-thread responsiveness.
+
 ## 2.8.0 - 2026-09-20
 
 - Add agent mentions and explicit room-memory commands, including autocomplete for installed agents and `@memory`, `@work-memory`, and `@personal-memory` flows for recording, loading, searching, and reviewing memory.
