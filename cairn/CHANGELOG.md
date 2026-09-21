@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.10.1 - 2026-09-21
+
+- Hardens the public app and DMG against accidental inclusion of private workstation, employer, credential, and build-path data.
+- Strips release symbols and debug metadata from native helpers and validates every packaged resource against its recorded digest and provenance.
+- Pins and verifies the bundled browser bridge, including its open-source notice.
+- Limits newly paired jump-host credentials to 30 days and narrows their AWS permissions to the selected instance, address, and SSH port.
+- Removes unnecessary direct-distribution privacy entitlements and strengthens SSH host-key verification during jump-host setup.
+
 ## 2.10.0 - 2026-09-21
 
 - Make the proprietary macOS app free to download and use without a license key. Cairn Remote remains a separate $19.99 App Store purchase for iPhone and iPad.
