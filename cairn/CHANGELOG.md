@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.10.2 - 2026-09-21
+
+- Security updates.
+
 ## 2.10.1 - 2026-09-21
 
 - Security updates.
