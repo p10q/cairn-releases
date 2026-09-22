@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.11.1 - 2026-09-22
+
+- Add a web-first Cairn server and companion architecture for securely operating agents and terminal sessions from a browser.
+- Expand the Agent Library with richer built-in skill, connection, workforce, and memory-adapter catalogs.
+- Support host-bound external ACP agents and route their work to the correct local or remote runtime.
+- Improve Resource Monitor, Build Steward, Unlazy Progress, Worktree Manager, and Friction Radar navigation and diagnostics.
+- Harden release verification, bundled-resource reproducibility, and Linux server installation and rollback tooling.
+
 ## 2.11.0 - 2026-09-22
 
 - Add encrypted offline continuity for Cairn Remote, including safer recovery when the Mac connection changes or temporarily drops.
