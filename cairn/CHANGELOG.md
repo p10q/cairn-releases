@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.11.0 - 2026-09-22
+
+- Add encrypted offline continuity for Cairn Remote, including safer recovery when the Mac connection changes or temporarily drops.
+- Let Cairn Remote create chat rooms and continue work through the existing authenticated connection.
+- Improve remote-session reliability with bounded terminal buffering, faster reconnection, and safer SSH channel ownership.
+- Expand agent-room workflows with conversation export, clearer last-updated state, workspace validation, and more reliable mission dispatch.
+- Improve workspace and plugin management with multi-select deletion, local agent removal, richer agent details, and clearer worktree change counts.
+
 ## 2.10.3 - 2026-09-21
 
 - Make the Chief of Staff the default starting point for new missions, with one persistent mission space, thread-scoped context, configurable local or remote placement, and reviewable specialist-team recommendations.
