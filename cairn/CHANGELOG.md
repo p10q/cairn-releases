@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 2.11.2 - 2026-09-23
+
+- Add a repository-wide Clean Up Merged action to Worktree Manager that safely removes only clean, still-merged worktrees while preserving changed work.
+- Improve Cairn Remote connection recovery with clearer feedback and more reliable reconnection behavior.
+
 ## 2.11.1 - 2026-09-22
 
 - Add a web-first Cairn server and companion architecture for securely operating agents and terminal sessions from a browser.
