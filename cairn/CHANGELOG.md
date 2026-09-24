@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.12.0 - 2026-09-24
+
+- Add Cairn Notes across Mac, iPhone, and iPad with encrypted jump-host sync, quick entry, inline editing, multi-selection, import and export, and improved Things integration.
+- Add trusted web surfaces, agent-ready local web previews, a customizable pane library, and a Figma pilot for richer workspace tools without leaving Cairn.
+- Improve Agent Rooms with faster conservative routing, more reliable dispatch and recovery, clearer conversation presentation, and stronger local and remote workflow handling.
+- Make Cairn Remote more resilient with self-healing and tiered reconnection, safer background continuity, clearer terminal failure recovery, and a new host activity view.
+- Improve Worktree Manager with multi-selection, clearer action progress, stale-snapshot recovery, and safer repository-wide cleanup behavior.
+- Improve Build Steward, Resource Monitor, Friction Radar, and Unlazy Progress with better prioritization, diagnostics, recovery guidance, workspace context, and recent-work visibility.
+- Recover detached standing-agent workspaces more reliably, improve local work search and responsive workspace cards, and make session history easier to scan.
+
 ## 2.11.2 - 2026-09-23
 
 - Add a repository-wide Clean Up Merged action to Worktree Manager that safely removes only clean, still-merged worktrees while preserving changed work.
