@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 2.13.2 - 2026-09-25
+
+- Refresh Cairn's macOS app icon with the new angular terracotta cairn and landscape artwork.
+- Keep terminal file links precise when a relative path is followed by sentence punctuation.
+
 ## 2.13.1 - 2026-09-25
 
 - Make accessibility a first-class macOS contract with stronger VoiceOver semantics, keyboard navigation, focus behavior, reduced-motion support, and automated coverage across Cairn's major workflows.
