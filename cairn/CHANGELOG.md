@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.13.1 - 2026-09-25
+
+- Make accessibility a first-class macOS contract with stronger VoiceOver semantics, keyboard navigation, focus behavior, reduced-motion support, and automated coverage across Cairn's major workflows.
+- Localize Cairn's macOS, iPhone, iPad, and web surfaces in 20 languages.
+- Replace Needs You with a clearer Agent Updates feed and improve fast Claude Code coordinator model selection.
+- Make Cairn Notes open and close immediately from title clicks, persist multiple open notes, and handle large sync checkpoints reliably.
+- Improve Worktree Manager refresh behavior, compact its window presentation, and keep row actions attached to the correct worktree.
+- Refine the mobile navigator, trigger controls and status colors, and archived iOS crash-diagnostic cleanup.
+
 ## 2.13.0 - 2026-09-25
 
 - Add a remote Cairn shell for iPhone and iPad, backed by authenticated Mac-hosted dock, plugin, workspace, and operational panels.
