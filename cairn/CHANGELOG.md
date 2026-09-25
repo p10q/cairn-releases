@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.13.0 - 2026-09-25
+
+- Add a remote Cairn shell for iPhone and iPad, backed by authenticated Mac-hosted dock, plugin, workspace, and operational panels.
+- Add canonical schedule and action triggers with controls for configuring reusable agent routines.
+- Improve agent orchestration with leaner fast coordinators, stronger routing and recovery, and more reliable local and remote lifecycle handling.
+- Make Worktree Manager faster and clearer with responsive refresh behavior, row-scoped confirmations, and direct navigation to matching Cairn workspaces.
+- Unify panel theming, motion, density, accessibility, and compact chrome across Cairn Notes, Signals, plugins, and other workspace surfaces.
+- Harden Cairn Remote, EICE teardown, crash diagnostics, main-thread hang paths, Friction Radar analysis, and shared plugin recency reporting.
+
 ## 2.12.1 - 2026-09-25
 
 - Add a unified Theme Studio for creating, previewing, saving, and applying coordinated terminal and Cairn interface themes.
