@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.12.1 - 2026-09-25
+
+- Add a unified Theme Studio for creating, previewing, saving, and applying coordinated terminal and Cairn interface themes.
+- Add richer plugin signal surfaces and a Signals pane for compact, actionable status from Build Steward, System Pulse, App Readiness, Worktree Manager, and other tools.
+- Refine Cairn Notes with collapsible search, title editing, smoother completion and deletion, clearer archive interactions, and improved contrast.
+- Improve dock resizing and pane-library navigation, including child-aware minimum sizes and category submenus.
+- Make agent chats bind to usable workspaces more reliably and restore missing jump-host relay recovery.
+- Improve Worktree Manager detail and cleanup reliability, reduce Resource Monitor layout work, and speed repeated builds with shared artifact and compiler caches.
+
 ## 2.12.0 - 2026-09-24
 
 - Add Cairn Notes across Mac, iPhone, and iPad with encrypted jump-host sync, quick entry, inline editing, multi-selection, import and export, and improved Things integration.

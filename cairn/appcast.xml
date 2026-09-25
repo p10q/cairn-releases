@@ -3,14 +3,14 @@
     <channel>
         <title>Cairn</title>
         <item>
-            <title>2.12.0</title>
-            <pubDate>Thu, 24 Sep 2026 12:30:16 -0700</pubDate>
+            <title>2.12.1</title>
+            <pubDate>Fri, 25 Sep 2026 02:48:18 -0700</pubDate>
             <link>https://p10q.com/#cairn</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>2.12.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.12.0.dmg" length="42010572" type="application/octet-stream" sparkle:edSignature="/W+w0FZy6nlIwjivI5qRdSHaPcslls0PkDPK/VJt9++jBaPZ1qtMFYoK30DhT7m/glykjtYjQMrW70W3AcfcCw=="/>
+            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.12.1.dmg" length="39129970" type="application/octet-stream" sparkle:edSignature="NGCynZOfh8Sr28ujmnYBrVRcFnjkERytkr2jWWxrUekhCuviUFUV9iO6XOWNvIQ63yzE4Pel1BtMp0t+uKnqCg=="/>
         </item>
     </channel>
 </rss>
