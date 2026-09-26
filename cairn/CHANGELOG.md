@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.13.3 - 2026-09-26
+
+- Refine Notes editing, keyboard navigation, and completion behavior, including reliable focus and selection updates.
+- Add a dedicated Settings window with the Command-Comma shortcut.
+- Improve agent room loading and add an optional local Qwen response mode.
+- Keep normal agent room dispatch working when the local response router abstains.
+- Let focused plugin panels handle their own keyboard shortcuts.
+- Add a zero-second option for the terminal close guard.
+- Refresh the Cairn icon with a simpler stone silhouette.
+
 ## 2.13.2 - 2026-09-25
 
 - Refresh Cairn's macOS app icon with the new angular terracotta cairn and landscape artwork.
