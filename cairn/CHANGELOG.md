@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.13.4 - 2026-09-26
+
+- Improve Notes dock editing, keyboard shortcuts, and activity indicator layout.
+- Reduce memory retained by inactive session history and Agent Rooms.
+- Make session history refreshes and live session lookups more efficient.
+- Fix Notes sync retention and move search hashing off the main thread.
+
 ## 2.13.3 - 2026-09-26
 
 - Refine Notes editing, keyboard navigation, and completion behavior, including reliable focus and selection updates.
