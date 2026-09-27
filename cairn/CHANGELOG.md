@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.13.5 - 2026-09-27
+
+- Add a fleet view for Herdr hosts, a guided Bedrock launch flow, and First Mate briefings with fleet health and review previews.
+- Add workspace runtime controls and evidence-backed checks for agent tasks and reviews.
+- Expand the bundled plugin library with task, build, system, web, and agent panels, plus catalog categories and filters.
+- Preserve Notes drafts during reloads, clarify calendar labels, and show more worktrees in the workspace manager.
+- Resolve relative file links from terminal output and reduce memory retained by agent event streams.
+- Refresh app icons and simplify the About header.
+
 ## 2.13.4 - 2026-09-26
 
 - Improve Notes dock editing, keyboard shortcuts, and activity indicator layout.
