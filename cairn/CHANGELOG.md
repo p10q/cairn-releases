@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.13.6 - 2026-09-28
+
+- Add a Markdown Preview dock panel and support opening Markdown files in Cairn.
+- Expand Session History with a timeline and conversation view for investigating earlier sessions.
+- Move plugins and agent hooks into Library, and simplify the macOS menu and Settings navigation.
+- Add native daily triage panels for Slack, Outlook, Zoom, and Figma, plus a Build Shelf for local app bundles.
+- Improve Build Steward queue controls, scheduling, status reporting, and memory use.
+- Improve First Mate permission links and approval handling, and record linked reviewer results from fleet events.
+- Tighten chat diagnostics, credential selection, and dispatch progress handling.
+- Prevent repeated remote panel mutations when concurrent action retries arrive.
+- Improve release build reliability and macOS test coverage.
+
 ## 2.13.5 - 2026-09-27
 
 - Add a fleet view for Herdr hosts, a guided Bedrock launch flow, and First Mate briefings with fleet health and review previews.
