@@ -1,5 +1,26 @@
 # Cairn changelog
 
+## 2.13.7 - 2026-09-28
+
+- Recolor the Cairn stones icon from terracotta to cool-neutral grey.
+- Add Per Worktree build mode, a worktree column in Build Steward lists, and optional low-impact scheduling for queued builds.
+- Automatically respond to build overload while preserving saved build ordering and settings.
+- Add display modes for the Pane Library menu and switcher, with adaptive columns in the pane switcher.
+- Unify native panels around the Resource Monitor style and add an app icon watermark to About and First Run backgrounds.
+- Render images in Session History and pin the timeline axis.
+- Show Bedrock account usage in the Activity dashboard.
+- Move the Notes view mode picker into the overflow menu and make Notes cards single-open.
+- Replace the Worktree Manager linked-workspaces section with inline activity counts.
+- Show progress and clearer results when merging worktrees.
+- Fall back to local helper builds when the remote worker is unavailable, and offload Linux Zig helpers through verified worker artifacts.
+- Speed up Unlazy directory loading and keep remote workspace switches responsive under heavy terminal output.
+- Keep remote panel actions consistent across retries and disconnects.
+- Center the plugin loading indicator and clarify Agent Updates history.
+- Let Daily Triage retry after a cancelled connection and prevent disconnected accounts from restoring stale credentials or results.
+- Restore Keyboard Map and All Keyboard Shortcuts menu setup.
+- Prevent malformed terminal status timestamps from crashing Cairn.
+- Keep repeat Chief of Staff missions working when a room reuses workspace references.
+
 ## 2.13.6 - 2026-09-28
 
 - Add a Markdown Preview dock panel and support opening Markdown files in Cairn.
