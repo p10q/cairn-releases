@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.14.0 - 2026-09-28
+
+- Add Help > Tour of Cairn, a guided introduction to workspaces, panels, agents, shortcuts, and themes.
+- Add Settings controls for Markdown and HTML file associations, and open HTML files from Finder in Web Preview.
+- Offer Walk-Away Lock PIN setup during first run and move lock controls into the Devices menu.
+- Refresh the stones icon with mineral colors and let you choose a close-up or landscape Dock icon.
+- Let Build Steward, Worktree Manager, and Unlazy Progress panes stay pinned to a directory while you switch workspaces.
+- Make the About window resizable and add a link to browse release notes online.
+- Keep Notes title rows steady when expanded while showing the complete title inside the note.
+- Save workspace state away from the main thread and preserve the latest state when quitting.
+- Recover external-agent launches when a saved room has stale host or runtime settings.
+
 ## 2.13.7 - 2026-09-28
 
 - Recolor the Cairn stones icon from terracotta to cool-neutral grey.
