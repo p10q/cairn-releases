@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 2.15.2 - 2026-09-30
+
+- Add camera permission guidance to Become a Worker and macOS Permissions, with a shortcut to Camera settings.
+- Open Sharing settings directly when setting up Remote Login.
+- Fix worker enrollment when the Mac's SSH host key file is unavailable.
+
 ## 2.15.1 - 2026-09-30
 
 - Keep automatic update preferences across launches.
