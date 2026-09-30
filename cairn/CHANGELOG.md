@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 2.15.4 - 2026-09-30
+
+- Fix a crash when scanning a worker invite QR code with a macOS camera.
+- Add scheduled Chat reports for todos.
+- Add diagnostics for markdown preview opening and panel closing.
+
 ## 2.15.3 - 2026-09-30
 
 - Fix camera permission requests in signed Cairn builds so Become a Worker can appear in macOS Camera settings.
