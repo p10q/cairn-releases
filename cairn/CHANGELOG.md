@@ -1,5 +1,19 @@
 # Cairn changelog
 
+## 2.15.0 - 2026-09-30
+
+- Pair a Mac as a build worker and run isolated build jobs through the worker fleet.
+- Add Git History and Session Digest panels for reviewing repository changes and recent sessions.
+- Show cloud server rooms in Remote Hosts and let you attach remote sessions to a workspace.
+- Connect to remote Macs and improve Remote Hosts with passwordless SSH guidance, a forget-host action, and private web previews.
+- Show task requests and outcomes in the Tasks list and Claude tool activity during long room runs.
+- Add automatic update preferences to Settings.
+- Make the command palette faster and improve matching, result layout, and empty states.
+- Let Web Preview open local HTML files while preserving normal browser handling for web links.
+- Refine panel and plugin styling, terminal tab controls, and accessibility behavior for reduced motion and transparency.
+- Fix recent main-thread hangs and improve workspace, plugin, and remote-session reliability.
+- Speed up app builds and bundled plugin assembly.
+
 ## 2.14.0 - 2026-09-28
 
 - Add Help > Tour of Cairn, a guided introduction to workspaces, panels, agents, shortcuts, and themes.
