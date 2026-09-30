@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.15.1 - 2026-09-30
+
+- Keep automatic update preferences across launches.
+- Make Settings searchable by section and improve matching for translated controls.
+- Add clickable links to Notes and a todo review trigger template.
+- Improve setup tour navigation, smaller diff review windows, and accessibility in the terminal sidebar and split view.
+- Make the New Tab Group host menu easier to find and confirm completed macOS permission setup.
+- Speed up workspace navigation, worktree status checks, and Notes syncing.
+- Improve reliability of bundled plugin panels and remote panels.
+
 ## 2.15.0 - 2026-09-30
 
 - Pair a Mac as a build worker and run isolated build jobs through the worker fleet.
