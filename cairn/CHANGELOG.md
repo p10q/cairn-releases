@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.15.3 - 2026-09-30
+
+- Fix camera permission requests in signed Cairn builds so Become a Worker can appear in macOS Camera settings.
+- Improve Notes editing, selection, and keyboard focus.
+- Keep room replies in order and capture Pi answers reliably.
+- Improve changelog scrolling, navigator focus, and terminal Shift-drag guidance.
+- Respect the configured Codex launcher when forking a session and allow cancellation during merged worktree cleanup.
+
 ## 2.15.2 - 2026-09-30
 
 - Add camera permission guidance to Become a Worker and macOS Permissions, with a shortcut to Camera settings.
