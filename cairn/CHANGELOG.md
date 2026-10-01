@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.15.6 - 2026-10-01
+
+- Add Agent Overview for local and remote sessions, with direct navigation to active work.
+- Reorganize macOS menus around workspaces and expand the guided Tour of Cairn.
+- Simplify morning summary schedules with local time zones and a Run Now action.
+- Support double-click title editing and links in expanded Notes titles.
+- Add read-only Notes tools and worker job controls for connected agents.
+- Reduce transcript memory use and redundant workspace updates.
+- Let dock panels shrink vertically to their title bars.
+- Improve connection checks and remote terminal repair.
+- Clarify when phone push notifications are unavailable.
+
 ## 2.15.5 - 2026-10-01
 
 - Add file navigation history to Markdown previews.
