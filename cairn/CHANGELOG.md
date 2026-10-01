@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.15.5 - 2026-10-01
+
+- Add file navigation history to Markdown previews.
+- Fix paste in the native Notes editor.
+- Improve the About window's scrolling and layout.
+- Fix an About window timer that could keep running after the window closed.
+
 ## 2.15.4 - 2026-09-30
 
 - Fix a crash when scanning a worker invite QR code with a macOS camera.
