@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.16.0 - 2026-10-02
+
+- Add a Web Browser panel with tabs, separate profiles, private browsing, bookmarks, history, downloads, and site permissions.
+- Guide panel setup from first use to the first result, including Figma, account panels, First Mate, and Poteto Mode.
+- Find text in Notes and native plugin panels, and adjust Notes text size and compact headers.
+- Add blank pane chrome and reclaim title bar space.
+- Restore live sessions after a reboot while preserving the selected Codex account.
+- Improve History, Search, command shortcuts, and draft recovery.
+- Improve remote connection recovery, panel focus, and action delivery.
+- Fix intermittent Notes click failures and lost local agent requests.
+- Strengthen browser, plugin, and saved-layout reliability.
+
 ## 2.15.7 - 2026-10-02
 
 - Preserve typing during Notes autosave and restore native Cut, Copy, Paste, and Return behavior.
