@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.15.7 - 2026-10-02
+
+- Preserve typing during Notes autosave and restore native Cut, Copy, Paste, and Return behavior.
+- Add consistent visual cues to workspaces and Notes, with controls to adjust them and filter Notes.
+- Load Git history progressively and cache project activity for faster navigation.
+- Keep pinned panels in sync when workspace folders or navigator selections change.
+- Group Agent Overview cards, add visit history, and open the exact remote workspace.
+- Add local health checks and event automations.
+- Add a Dock auto-hide toggle and double-click pane title bars to zoom.
+- Add Screen Recording access to System Permissions and simplify the Help menu.
+
 ## 2.15.6 - 2026-10-01
 
 - Add Agent Overview for local and remote sessions, with direct navigation to active work.
