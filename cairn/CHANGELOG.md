@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.16.2 - 2026-10-03
+
+- Add a Knowledge library with source citations, connections, corrections, and Markdown export.
+- Open and mark up PDFs and images in the native Document Viewer.
+- Expand Mermaid diagrams into a separate window with pan and zoom, and scroll smoothly over inline diagrams.
+- Choose where new Markdown previews open from workspaces and Notes.
+- Add memory protection controls and guidance for reducing memory pressure.
+- Show clearer UI Automation permission guidance.
+- Move Stay Awake and Walk-Away Lock into the Cairn application menu.
+- Improve About window scrolling and percussion, and fix command-line configuration parsing.
+
 ## 2.16.1 - 2026-10-03
 
 - Switch between chats in place and use one creation flow for new chats and missions.
