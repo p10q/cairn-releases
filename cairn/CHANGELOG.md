@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.16.1 - 2026-10-03
+
+- Switch between chats in place and use one creation flow for new chats and missions.
+- Preserve your reading position when resizing a chat.
+- Render Mermaid diagrams, GitHub alerts, and emoji shortcodes in Markdown previews.
+- Improve Markdown outline navigation and links to headings.
+- Make local file paths in Notes clickable.
+- Improve agent package updates, routine shutdown, and session history recovery.
+- Strengthen remote connection handling, clipboard delivery, and window lifecycle reliability.
+- Keep the About changelog within its window and add a percussion finale.
+
 ## 2.16.0 - 2026-10-02
 
 - Add a Web Browser panel with tabs, separate profiles, private browsing, bookmarks, history, downloads, and site permissions.
