@@ -1,6 +1,14 @@
 # Cairn changelog
 
-## 2.16.3 - 2026-10-04
+## 2.16.4 - 2026-10-03 23:52 PDT (Pacific)
+
+- Show release dates and times in Pacific time in the About changelog and published release notes, including recovered times for past releases.
+- Maintain Knowledge from Notes automatically, with clearer source choices, workspace discovery, and maintenance status.
+- Keep Knowledge usable in small panes and preserve corrections during maintenance.
+- Improve chat send ownership, draft recovery, and local responses.
+- Support native Codex question forms and saved terminal screen history for connected mobile clients.
+
+## 2.16.3 - 2026-10-03 22:01 PDT (Pacific)
 
 - Schedule Stay Awake for selected days and times.
 - Keep Knowledge in a dedicated workspace pane with Chief of Staff as the default assistant.
@@ -11,7 +19,7 @@
 - Add an iOS Home Screen widget for recent notes and make note creation consistently available.
 - Improve iOS Notes responsiveness, terminal font controls, and access to Knowledge and Document Viewer.
 
-## 2.16.2 - 2026-10-03
+## 2.16.2 - 2026-10-03 02:01 PDT (Pacific)
 
 - Add a Knowledge library with source citations, connections, corrections, and Markdown export.
 - Open and mark up PDFs and images in the native Document Viewer.
@@ -22,7 +30,7 @@
 - Move Stay Awake and Walk-Away Lock into the Cairn application menu.
 - Improve About window scrolling and percussion, and fix command-line configuration parsing.
 
-## 2.16.1 - 2026-10-03
+## 2.16.1 - 2026-10-02 21:59 PDT (Pacific)
 
 - Switch between chats in place and use one creation flow for new chats and missions.
 - Preserve your reading position when resizing a chat.
@@ -33,7 +41,7 @@
 - Strengthen remote connection handling, clipboard delivery, and window lifecycle reliability.
 - Keep the About changelog within its window and add a percussion finale.
 
-## 2.16.0 - 2026-10-02
+## 2.16.0 - 2026-10-02 14:10 PDT (Pacific)
 
 - Add a Web Browser panel with tabs, separate profiles, private browsing, bookmarks, history, downloads, and site permissions.
 - Guide panel setup from first use to the first result, including Figma, account panels, First Mate, and Poteto Mode.
@@ -45,7 +53,7 @@
 - Fix intermittent Notes click failures and lost local agent requests.
 - Strengthen browser, plugin, and saved-layout reliability.
 
-## 2.15.7 - 2026-10-02
+## 2.15.7 - 2026-10-01 18:55 PDT (Pacific)
 
 - Preserve typing during Notes autosave and restore native Cut, Copy, Paste, and Return behavior.
 - Add consistent visual cues to workspaces and Notes, with controls to adjust them and filter Notes.
@@ -56,7 +64,7 @@
 - Add a Dock auto-hide toggle and double-click pane title bars to zoom.
 - Add Screen Recording access to System Permissions and simplify the Help menu.
 
-## 2.15.6 - 2026-10-01
+## 2.15.6 - 2026-10-01 10:42 PDT (Pacific)
 
 - Add Agent Overview for local and remote sessions, with direct navigation to active work.
 - Reorganize macOS menus around workspaces and expand the guided Tour of Cairn.
@@ -68,20 +76,20 @@
 - Improve connection checks and remote terminal repair.
 - Clarify when phone push notifications are unavailable.
 
-## 2.15.5 - 2026-10-01
+## 2.15.5 - 2026-10-01 01:50 PDT (Pacific)
 
 - Add file navigation history to Markdown previews.
 - Fix paste in the native Notes editor.
 - Improve the About window's scrolling and layout.
 - Fix an About window timer that could keep running after the window closed.
 
-## 2.15.4 - 2026-09-30
+## 2.15.4 - 2026-09-30 16:41 PDT (Pacific)
 
 - Fix a crash when scanning a worker invite QR code with a macOS camera.
 - Add scheduled Chat reports for todos.
 - Add diagnostics for markdown preview opening and panel closing.
 
-## 2.15.3 - 2026-09-30
+## 2.15.3 - 2026-09-30 13:33 PDT (Pacific)
 
 - Fix camera permission requests in signed Cairn builds so Become a Worker can appear in macOS Camera settings.
 - Improve Notes editing, selection, and keyboard focus.
@@ -89,13 +97,13 @@
 - Improve changelog scrolling, navigator focus, and terminal Shift-drag guidance.
 - Respect the configured Codex launcher when forking a session and allow cancellation during merged worktree cleanup.
 
-## 2.15.2 - 2026-09-30
+## 2.15.2 - 2026-09-30 11:43 PDT (Pacific)
 
 - Add camera permission guidance to Become a Worker and macOS Permissions, with a shortcut to Camera settings.
 - Open Sharing settings directly when setting up Remote Login.
 - Fix worker enrollment when the Mac's SSH host key file is unavailable.
 
-## 2.15.1 - 2026-09-30
+## 2.15.1 - 2026-09-30 09:05 PDT (Pacific)
 
 - Keep automatic update preferences across launches.
 - Make Settings searchable by section and improve matching for translated controls.
@@ -105,7 +113,7 @@
 - Speed up workspace navigation, worktree status checks, and Notes syncing.
 - Improve reliability of bundled plugin panels and remote panels.
 
-## 2.15.0 - 2026-09-30
+## 2.15.0 - 2026-09-30 03:28 PDT (Pacific)
 
 - Pair a Mac as a build worker and run isolated build jobs through the worker fleet.
 - Add Git History and Session Digest panels for reviewing repository changes and recent sessions.
@@ -119,7 +127,7 @@
 - Fix recent main-thread hangs and improve workspace, plugin, and remote-session reliability.
 - Speed up app builds and bundled plugin assembly.
 
-## 2.14.0 - 2026-09-28
+## 2.14.0 - 2026-09-28 16:42 PDT (Pacific)
 
 - Add Help > Tour of Cairn, a guided introduction to workspaces, panels, agents, shortcuts, and themes.
 - Add Settings controls for Markdown and HTML file associations, and open HTML files from Finder in Web Preview.
@@ -131,7 +139,7 @@
 - Save workspace state away from the main thread and preserve the latest state when quitting.
 - Recover external-agent launches when a saved room has stale host or runtime settings.
 
-## 2.13.7 - 2026-09-28
+## 2.13.7 - 2026-09-28 09:18 PDT (Pacific)
 
 - Recolor the Cairn stones icon from terracotta to cool-neutral grey.
 - Add Per Worktree build mode, a worktree column in Build Steward lists, and optional low-impact scheduling for queued builds.
@@ -152,7 +160,7 @@
 - Prevent malformed terminal status timestamps from crashing Cairn.
 - Keep repeat Chief of Staff missions working when a room reuses workspace references.
 
-## 2.13.6 - 2026-09-28
+## 2.13.6 - 2026-09-27 20:04 PDT (Pacific)
 
 - Add a Markdown Preview dock panel and support opening Markdown files in Cairn.
 - Expand Session History with a timeline and conversation view for investigating earlier sessions.
@@ -164,7 +172,7 @@
 - Prevent repeated remote panel mutations when concurrent action retries arrive.
 - Improve release build reliability and macOS test coverage.
 
-## 2.13.5 - 2026-09-27
+## 2.13.5 - 2026-09-27 10:15 PDT (Pacific)
 
 - Add a fleet view for Herdr hosts, a guided Bedrock launch flow, and First Mate briefings with fleet health and review previews.
 - Add workspace runtime controls and evidence-backed checks for agent tasks and reviews.
@@ -173,14 +181,14 @@
 - Resolve relative file links from terminal output and reduce memory retained by agent event streams.
 - Refresh app icons and simplify the About header.
 
-## 2.13.4 - 2026-09-26
+## 2.13.4 - 2026-09-26 16:04 PDT (Pacific)
 
 - Improve Notes dock editing, keyboard shortcuts, and activity indicator layout.
 - Reduce memory retained by inactive session history and Agent Rooms.
 - Make session history refreshes and live session lookups more efficient.
 - Fix Notes sync retention and move search hashing off the main thread.
 
-## 2.13.3 - 2026-09-26
+## 2.13.3 - 2026-09-26 04:42 PDT (Pacific)
 
 - Refine Notes editing, keyboard navigation, and completion behavior, including reliable focus and selection updates.
 - Add a dedicated Settings window with the Command-Comma shortcut.
@@ -190,12 +198,12 @@
 - Add a zero-second option for the terminal close guard.
 - Refresh the Cairn icon with a simpler stone silhouette.
 
-## 2.13.2 - 2026-09-25
+## 2.13.2 - 2026-09-25 13:48 PDT (Pacific)
 
 - Refresh Cairn's macOS app icon with the new angular terracotta cairn and landscape artwork.
 - Keep terminal file links precise when a relative path is followed by sentence punctuation.
 
-## 2.13.1 - 2026-09-25
+## 2.13.1 - 2026-09-25 11:42 PDT (Pacific)
 
 - Make accessibility a first-class macOS contract with stronger VoiceOver semantics, keyboard navigation, focus behavior, reduced-motion support, and automated coverage across Cairn's major workflows.
 - Localize Cairn's macOS, iPhone, iPad, and web surfaces in 20 languages.
@@ -204,7 +212,7 @@
 - Improve Worktree Manager refresh behavior, compact its window presentation, and keep row actions attached to the correct worktree.
 - Refine the mobile navigator, trigger controls and status colors, and archived iOS crash-diagnostic cleanup.
 
-## 2.13.0 - 2026-09-25
+## 2.13.0 - 2026-09-25 08:07 PDT (Pacific)
 
 - Add a remote Cairn shell for iPhone and iPad, backed by authenticated Mac-hosted dock, plugin, workspace, and operational panels.
 - Add canonical schedule and action triggers with controls for configuring reusable agent routines.
@@ -213,7 +221,7 @@
 - Unify panel theming, motion, density, accessibility, and compact chrome across Cairn Notes, Signals, plugins, and other workspace surfaces.
 - Harden Cairn Remote, EICE teardown, crash diagnostics, main-thread hang paths, Friction Radar analysis, and shared plugin recency reporting.
 
-## 2.12.1 - 2026-09-25
+## 2.12.1 - 2026-09-25 02:54 PDT (Pacific)
 
 - Add a unified Theme Studio for creating, previewing, saving, and applying coordinated terminal and Cairn interface themes.
 - Add richer plugin signal surfaces and a Signals pane for compact, actionable status from Build Steward, System Pulse, App Readiness, Worktree Manager, and other tools.
@@ -222,7 +230,7 @@
 - Make agent chats bind to usable workspaces more reliably and restore missing jump-host relay recovery.
 - Improve Worktree Manager detail and cleanup reliability, reduce Resource Monitor layout work, and speed repeated builds with shared artifact and compiler caches.
 
-## 2.12.0 - 2026-09-24
+## 2.12.0 - 2026-09-24 12:32 PDT (Pacific)
 
 - Add Cairn Notes across Mac, iPhone, and iPad with encrypted jump-host sync, quick entry, inline editing, multi-selection, import and export, and improved Things integration.
 - Add trusted web surfaces, agent-ready local web previews, a customizable pane library, and a Figma pilot for richer workspace tools without leaving Cairn.
@@ -232,12 +240,12 @@
 - Improve Build Steward, Resource Monitor, Friction Radar, and Unlazy Progress with better prioritization, diagnostics, recovery guidance, workspace context, and recent-work visibility.
 - Recover detached standing-agent workspaces more reliably, improve local work search and responsive workspace cards, and make session history easier to scan.
 
-## 2.11.2 - 2026-09-23
+## 2.11.2 - 2026-09-23 03:35 PDT (Pacific)
 
 - Add a repository-wide Clean Up Merged action to Worktree Manager that safely removes only clean, still-merged worktrees while preserving changed work.
 - Improve Cairn Remote connection recovery with clearer feedback and more reliable reconnection behavior.
 
-## 2.11.1 - 2026-09-22
+## 2.11.1 - 2026-09-22 07:35 PDT (Pacific)
 
 - Add a web-first Cairn server and companion architecture for securely operating agents and terminal sessions from a browser.
 - Expand the Agent Library with richer built-in skill, connection, workforce, and memory-adapter catalogs.
@@ -245,7 +253,7 @@
 - Improve Resource Monitor, Build Steward, Unlazy Progress, Worktree Manager, and Friction Radar navigation and diagnostics.
 - Harden release verification, bundled-resource reproducibility, and Linux server installation and rollback tooling.
 
-## 2.11.0 - 2026-09-22
+## 2.11.0 - 2026-09-21 22:26 PDT (Pacific)
 
 - Add encrypted offline continuity for Cairn Remote, including safer recovery when the Mac connection changes or temporarily drops.
 - Let Cairn Remote create chat rooms and continue work through the existing authenticated connection.
@@ -253,7 +261,7 @@
 - Expand agent-room workflows with conversation export, clearer last-updated state, workspace validation, and more reliable mission dispatch.
 - Improve workspace and plugin management with multi-select deletion, local agent removal, richer agent details, and clearer worktree change counts.
 
-## 2.10.3 - 2026-09-21
+## 2.10.3 - 2026-09-21 12:52 PDT (Pacific)
 
 - Make the Chief of Staff the default starting point for new missions, with one persistent mission space, thread-scoped context, configurable local or remote placement, and reviewable specialist-team recommendations.
 - Let Cairn Remote create chat rooms from iPhone and iPad and start work through the existing authenticated remote connection.
@@ -261,19 +269,19 @@
 - Open terminal file links in the correct local workspace or mapped remote host.
 - Simplify first-run setup and remove an unnecessary launcher authority confirmation step.
 
-## 2.10.2 - 2026-09-21
+## 2.10.2 - 2026-09-21 09:09 PDT (Pacific)
 
 - Security updates.
 
-## 2.10.1 - 2026-09-21
+## 2.10.1 - 2026-09-21 00:49 PDT (Pacific)
 
 - Security updates.
 
-## 2.10.0 - 2026-09-21
+## 2.10.0 - 2026-09-20 23:27 PDT (Pacific)
 
 - Make the proprietary macOS app free to download and use without a license key. Cairn Remote remains a separate $19.99 App Store purchase for iPhone and iPad.
 
-## 2.9.0 - 2026-09-21
+## 2.9.0 - 2026-09-20 22:47 PDT (Pacific)
 
 - Reopen Cairn as a public beta with a $19.99 one-time macOS license, public signed downloads, and continued support for existing license keys.
 - Add a native Worktree Manager with repository discovery, target selection, composable status filters, bulk actions, and clearer guidance for active development branches.
@@ -282,7 +290,7 @@
 - Unify the Memory Library around a searchable hierarchical browser, and improve the Agent Library with simpler taxonomy plus explicit model and execution-style choices.
 - Add a remote development launchpad, make Cairn iOS room-first, and harden room creation, event delivery, orchestration recovery, crash diagnostics, and main-thread responsiveness.
 
-## 2.8.0 - 2026-09-20
+## 2.8.0 - 2026-09-19 21:32 PDT (Pacific)
 
 - Add agent mentions and explicit room-memory commands, including autocomplete for installed agents and `@memory`, `@work-memory`, and `@personal-memory` flows for recording, loading, searching, and reviewing memory.
 - Expand Chats with durable terminal-reply projection, run transcripts, multi-select room actions, safe archive cleanup, richer dispatch diagnostics, and more reliable recovery after interrupted or stale runs.
@@ -290,7 +298,7 @@
 - Improve agent-room and Fleet responsiveness by moving runtime probes and store work off the main thread, caching row sources, and tightening ACP lifecycle diagnostics.
 - Refresh Cairn's visual identity with richer stone-avatar and app-icon gradients, and make the macOS codebase easier to evolve by splitting stable domains into focused Swift modules.
 
-## 2.7.1 - 2026-09-19
+## 2.7.1 - 2026-09-19 00:40 PDT (Pacific)
 
 - Rebuild Chats around a durable command/query engine with live local, remote, SSH, and simulated runtime adapters, richer execution traces, and broader scenario and UI test coverage.
 - Make approvals and human-input requests resolve through the canonical agent runtime, while trusted tool calls proceed without redundant confirmation prompts.
@@ -298,7 +306,7 @@
 - Fix terminal sizing after split-layout changes and harden agent event storage and duplex connections.
 - Clarify the bundled Unlazy progress view with a cleaner hierarchy, more accurate status presentation, and simpler activity cards.
 
-## 2.7.0 - 2026-09-18
+## 2.7.0 - 2026-09-17 23:00 PDT (Pacific)
 
 - Rework agent rooms into a focused Chats experience with archive browsing, restored conversations, persistent drafts, live execution traces, clearer stop controls, and safer recovery of interrupted or completed terminal sessions.
 - Add native memory, review, and evidence foundations, including scoped retrieval, retention controls, correction previews, outcome packet inspection and export, operation timelines, and honest Needs You re-entry summaries.
@@ -307,14 +315,14 @@
 - Improve operator visibility with budget attribution, projection health, worktree guidance, release proof, and Git-based friction analysis.
 - Harden the agent and plugin runtimes with workspace-contention preflight, corrupt-store recovery, push-driven plugin refresh, stricter process isolation, and broad responsiveness and maintainability improvements.
 
-## 2.6.2 - 2026-09-16
+## 2.6.2 - 2026-09-16 08:13 PDT (Pacific)
 
 - Add a governed local AI workforce with 108 discoverable specialist definitions, a Chief of Staff drafting flow, strict local agent-package imports, and explicit review before agents can be enabled.
 - Unify local agent creation in the Agent Library with guided starter, workforce, specialist-draft, and package-import paths that begin without inherited tools or credentials.
 - Improve native Mermaid flowcharts in agent rooms with clearer directional layout, edge routing, labels, node shapes, and accessibility descriptions.
 - Theme About Cairn from the selected terminal preset, with contrast-aware semantic colors and live updates when the theme changes.
 
-## 2.6.1 - 2026-09-16
+## 2.6.1 - 2026-09-15 23:21 PDT (Pacific)
 
 - Improve agent-room replies and follow-ups, with richer Markdown, tables, images, code blocks, and native Mermaid flowcharts in agent messages and results.
 - Add a retro changelog arcade to About Cairn.
@@ -322,7 +330,7 @@
 - Expand Unlazy Progress to discover root-level workspace ledgers and handle larger workspaces with clearer filtering.
 - Reduce main-thread stalls during display changes, permission checks, process-history updates, workspace lookup and path display, and session-history parsing.
 
-## 2.6.0 - 2026-09-16
+## 2.6.0 - 2026-09-15 21:06 PDT (Pacific)
 
 - Add native agent rooms for durable multi-agent work, with guided setup, workspace placement, cross-host routing, replies, reattachment, milestones, artifacts, approvals, and recovery when a run is interrupted.
 - Add native agent and plugin libraries, including safe package import, guided local agent creation, richer plugin panes, and automatic updates for bundled plugins.
@@ -331,7 +339,7 @@
 - Improve Fleet with first-run onboarding, clearer crew and workflow creation, durable workspace identity, tracked task dispatch across hosts, and a dedicated Tasks panel.
 - Add local shell splits alongside remote workspaces, restore the last focused workspace on relaunch, and harden the app against monitor-disconnect freezes, stale plugin connections, and orchestration failures.
 
-## 2.5.0 - 2026-09-13
+## 2.5.0 - 2026-09-13 07:32 PDT (Pacific)
 
 - A license key is required when Cairn first opens; there is no trial in this release.
 - Keep valid legacy Cairn license keys working alongside active monthly Gumroad memberships.
@@ -339,11 +347,11 @@
 - Replace session-history polling with native events and improve workspace opening, selection, and session-fork reliability.
 - Keep inactive render targets parked without blocking the renderer.
 
-## 2.4.1 - 2026-09-13
+## 2.4.1 - 2026-09-12 19:02 PDT (Pacific)
 
 - Make New Workspace actions on iPhone and iPad route reliably from global, folder, and workspace entry points, with stronger fallback behavior and expanded regression coverage.
 
-## 2.4.0 - 2026-09-13
+## 2.4.0 - 2026-09-12 17:24 PDT (Pacific)
 
 - Add rich native plugin panes with responsive metrics, charts, tables, controls, and a new activity API, plus installable developer examples.
 - Keep Needs You events across acknowledgements and app relaunches, show earlier events as muted history, and let historical rows recover their workspaces on Mac and iPhone.
@@ -351,12 +359,12 @@
 - Move agent transcript discovery off the main thread to prevent workspace updates from freezing the interface.
 - Keep reserved alert colors distinct from quiet workspace colors so attention states remain immediately recognizable.
 
-## 2.3.4 - 2026-09-12
+## 2.3.4 - 2026-09-11 22:27 PDT (Pacific)
 
 - Simplify dock layouts by retiring the Usage and Layout Controls panes and replacing the split menu with direct Split Right and Split Below actions.
 - Make Needs You rows respond reliably when clicking their labels, status, or detail text.
 
-## 2.3.3 - 2026-09-12
+## 2.3.3 - 2026-09-11 20:44 PDT (Pacific)
 
 - Pin important workspace panes so they stay in place and appear first in the Navigator.
 - Jump directly to the exact terminal session from Needs You alerts and notifications.
@@ -367,17 +375,17 @@
 - Show the active macOS sleep policy inside Remote > Stay Awake, with shortcuts to the relevant system settings.
 - Refine the Cairn icon with a warmer, clearer background and a more balanced touching-stone composition across macOS, iOS, the website, and storefront artwork.
 
-## 2.3.2 - 2026-09-11
+## 2.3.2 - 2026-09-10 23:02 PDT (Pacific)
 
 - Keep local pane working directories current after shell directory changes, including shells that do not report OSC 7.
 
-## 2.3.1 - 2026-09-11
+## 2.3.1 - 2026-09-10 22:29 PDT (Pacific)
 
 - Keep directory colors stable as workspaces and folders are added, so established visual identities no longer shift unexpectedly.
 - Refresh live agent activity directly from terminal changes for faster, more accurate navigator and canvas status.
 - Update elapsed-time labels continuously and use clearer “running” status wording throughout the workspace interface.
 
-## 2.3.0 - 2026-09-11
+## 2.3.0 - 2026-09-10 20:47 PDT (Pacific)
 
 - Reworked the workspace navigator with clearer live-session summaries, wider cards, workspace-aware naming, goal-age status, and coordinated directory colors across sessions and splits.
 - Refined dock and window management with a more compact layout, stable companion windows, explicit free-space drop zones, and smoother motion that keeps workspace panels visually anchored.
@@ -385,18 +393,18 @@
 - Improved the remote file browser with Cairn-aware theming, safer tunnel handling, bounded search, and support for forwarded folders reached through top-level symlinks.
 - Refreshed the Cairn app icon and removed retired canvas and history paths to simplify the app and improve reliability.
 
-## 2.2.4 - 2026-09-09
+## 2.2.4 - 2026-09-09 06:43 PDT (Pacific)
 
 - Improved workspace navigator status accuracy when visible terminal panes are active before their live session bindings are available.
 - Fixed empty terminal selections incorrectly clearing the existing clipboard contents.
 - Fixed recent main-thread hangs during window activation, canvas refreshes, and workspace status updates.
 
-## 2.2.3 - 2026-09-09
+## 2.2.3 - 2026-09-08 21:50 PDT (Pacific)
 
 - Added a secure remote file browser for forwarded folders, with stable browser URLs, clearer connection progress, bounded filename and content search, and safer handling of paths and rendered output.
 - Fixed a renderer deadlock that could freeze Cairn while macOS display topology changed.
 
-## 2.2.2 - 2026-09-08
+## 2.2.2 - 2026-09-08 13:59 PDT (Pacific)
 
 - Added unified window-management controls for arranging Cairn and browser windows, with adaptive layouts and more stable reflow as screens and panels change.
 - Added stay-awake controls to Cairn Remote so an iPhone or iPad can keep the connected Mac awake during a remote session.
@@ -404,7 +412,7 @@
 - Improved remote port-forward diagnostics with captured errors, bounded retries, cancellation controls, and a watchdog for connections stuck at “Connecting…”.
 - Fixed compact window-management panels so overflowing content scrolls instead of overlapping other controls.
 
-## 2.2.1 - 2026-09-08
+## 2.2.1 - 2026-09-08 01:01 PDT (Pacific)
 
 - Expanded the workspace navigator with keyboard navigation, route-synchronized selection, configurable detail levels, and more predictable workspace cycling.
 - Added composable pane layouts and remote pane launching, with more reliable working-directory handling for remote workspaces and splits.
@@ -413,7 +421,7 @@
 - Improved live workspace status timing, panel redraws after dock moves, and remote-split probing behavior.
 - Improved Cairn Remote connection reliability with staged EICE/SSH deadlines and clearer split diagrams for deeply nested layouts.
 
-## 2.2.0 - 2026-09-08
+## 2.2.0 - 2026-09-07 20:25 PDT (Pacific)
 
 - Improved remote host launching by detecting coding agents through interactive login shells and clearly separating host repair state from ready warm-pool sessions.
 - Made remote workspace directories host-aware: new launchers default to the remote home directory, remember successful directories per host, and no longer carry a local Mac home path onto Linux hosts.
@@ -421,11 +429,11 @@
 - Simplified Remote Hosts management and made helper shutdown more reliable during login-shell startup.
 - Added a Needs You attention queue to the iOS Remote app, improved split visibility, and accelerated stale-session reconnection.
 
-## 2.1.1 - 2026-09-07
+## 2.1.1 - 2026-09-07 09:39 PDT (Pacific)
 
 - Improved Quick Agent launcher legibility by automatically choosing dark or light selected-row text and icons for the current accent color and appearance.
 
-## 2.1.0 - 2026-09-07
+## 2.1.0 - 2026-09-07 08:21 PDT (Pacific)
 
 - Added always-on host load monitoring that pauses speculative terminal warm-up during sustained CPU contention while keeping user-initiated launches responsive.
 - Expanded Resource Monitor with host-load, runnable-process, and zombie-process detail, plus optional notifications and cleanup of obsolete Cairn helper processes during severe overload.
@@ -433,21 +441,21 @@
 - Improved dock responsiveness with targeted panel refreshes, fewer unnecessary layout commits, and cheaper workspace-pill sizing.
 - Improved large session-history updates and live activity timestamps while reducing blocking Keychain writes and repeated text-processing work.
 
-## 2.0.2 - 2026-09-06
+## 2.0.2 - 2026-09-06 15:39 PDT (Pacific)
 
 - Added multi-selection to the workspace navigator for opening, forking, and closing several workspaces together.
 - Added in-app web viewing on iPhone and iPad for links opened from remote terminal sessions, carried through the existing secure host connection.
 - Improved Cairn Remote with workspace split diagrams, unread activity indicators, more reliable scroll-tail behavior, and safer agent integration isolation.
 - Improved compact dock layouts for remote hosts, jump hosts, resource monitoring, and activity views, and updated the remote PTY service to v0.2.0.
 
-## 2.0.1 - 2026-09-06
+## 2.0.1 - 2026-09-06 02:11 PDT (Pacific)
 
 - Added a native Plugins panel for installing, reloading, inspecting, and removing extensions without leaving Cairn.
 - Added per-plugin capability controls, runtime status, contribution summaries, and actionable discovery errors for invalid plugins.
 - Added workflow-focused canvas presets for all panels, window management, fleet launch, and fleet monitoring alongside the existing basic layouts.
 - Improved narrow dock panes by collapsing the panel type chooser to an icon with an accessible tooltip when space is tight.
 
-## 2.0.0 - 2026-09-06
+## 2.0.0 - 2026-09-06 01:10 PDT (Pacific)
 
 - Redesigned Cairn around a persistent dockable workspace with split and stacked layouts, configurable presets, drag-and-drop panels, keyboard navigation, and dedicated panels for workspaces, live sessions, activity, history, usage, and remote hosts.
 - Added a scalable remote-fleet control plane with bounded discovery, session catalogs, repair plans, reconnect policies, richer host health summaries, and faster context-aware workspace launches.
@@ -457,7 +465,7 @@
 - Reduced idle and refresh CPU use by eliminating leaked cursor timers, caching process-session scans, bounding transcript work, and avoiding unnecessary full-text-search backfills.
 - Removed the legacy Project menu and consolidated workspace, browser, and layout controls around the new dock-based workflow.
 
-## 1.5.0 - 2026-09-05
+## 1.5.0 - 2026-09-05 07:31 PDT (Pacific)
 
 - Added adjustable screen-band layouts and moved Accessibility-based window scanning and placement off the main thread for smoother window management.
 - Added a system watchdog and expanded the resource monitor with sustained per-process history, launch-aware tracking, and guarded process controls.
@@ -466,7 +474,7 @@
 - Made the managed-window shelf collapsible and consolidated browser controls under the Window menu.
 - Updated the upstream terminal engine with broad search, clipboard, rendering, memory-use, compatibility, and reliability improvements.
 
-## 1.4.4 - 2026-09-03
+## 1.4.4 - 2026-09-03 10:00 PDT (Pacific)
 
 - Added remote workspace preflight checks, automatic reconnects, and actionable recovery controls when a host, setup, or working directory needs attention.
 - Added live remote-session inventory with filtering, workspace opening, and controls for stopping individual or grouped sessions.
@@ -474,7 +482,7 @@
 - Improved performance across workspace activity and session history by coalescing refreshes, caching repeated parsing and formatting work, and reducing unnecessary polling.
 - Refined accessibility, typography, spacing, empty states, and keyboard behavior throughout the workspace, history, onboarding, and remote-host interfaces.
 
-## 1.4.3 - 2026-09-03
+## 1.4.3 - 2026-09-03 00:25 PDT (Pacific)
 
 - Improved the workspace sidebar on narrow screen bands by stacking crowded sections, wrapping controls, and using the available vertical space.
 - Fixed temporary overlap when opening the Activity dashboard and kept workspace, live-session, and utility regions from drawing over one another.
@@ -482,20 +490,20 @@
 - Replaced automatic window rearrangement with explicit layout presets, so Cairn only moves windows when you choose a layout.
 - Fixed screen-band positioning when the Dock auto-hides and macOS temporarily stops reporting its frame.
 
-## 1.4.2 - 2026-08-30
+## 1.4.2 - 2026-08-30 18:46 PDT (Pacific)
 
 - Fixed copy and paste between terminal splits by keeping the clicked pane's focus synchronized and routing context-menu actions to the pane that opened the menu.
 - Added a distinct recoverable interruption state for agent stream disconnects, which clears automatically when visible work resumes.
 - Improved screen-band window ordering across reflows, Dock changes, shelving, and drag swaps.
 - Hardened iOS remote reconnect and frame-receive concurrency during network transitions.
 
-## 1.4.1 - 2026-08-30
+## 1.4.1 - 2026-08-30 15:24 PDT (Pacific)
 
 - Added inline canvas controls for managed windows and Dock visibility, with clearer active states and a new Cairn icon for Stay Awake.
 - Fixed screen-band sizing after changing Dock visibility and made restoring minimized windows from the app shelf more reliable.
 - Kept overflow windows available in a background stack instead of minimizing them, with recently focused windows promoted into visible slots.
 
-## 1.4.0 - 2026-08-30
+## 1.4.0 - 2026-08-30 13:41 PDT (Pacific)
 
 - Added a window arrangement control for choosing automatic, one-, two-, or three-window layouts within the available screen area.
 - Improved the app shelf with separate open and minimized rows, clearer window states, focused-window promotion, and compact layouts that scale across display sizes.
@@ -504,7 +512,7 @@
 - Paused iOS Remote reconnects while backgrounded and improved recovery when returning to the foreground or connecting over slower networks.
 - Preserved macOS Accessibility permission across reinstalls and separated macOS framework builds from the universal iOS framework.
 
-## 1.3.6 - 2026-08-30
+## 1.3.6 - 2026-08-30 08:53 PDT (Pacific)
 
 - Expanded screen bands with top, bottom, left, right, and full half-band placements for more flexible workspace layouts.
 - Added adaptive tiling for multiple app windows in the free screen area, including controls to focus, promote, or release managed windows.
@@ -512,7 +520,7 @@
 - Added a Window menu toggle for showing or hiding Cairn window shadows.
 - Hardened the shared Apple framework build and signing flow used by Cairn's macOS and iOS targets.
 
-## 1.3.5 - 2026-08-29
+## 1.3.5 - 2026-08-30 00:09 PDT (Pacific)
 
 - Added screen-band controls to the workspace list and automatically fit focused windows around the selected bands.
 - Added a Command-B side-panel toggle, a collapsible live-sessions column, and lower background work while those sections are hidden.
@@ -520,7 +528,7 @@
 - Improved active, blocked, and completed session detection so workspace status and alerts stay accurate.
 - Hardened remote tunnel recovery and main-thread watchdog sampling for more reliable long-running sessions.
 
-## 1.3.4 - 2026-08-29
+## 1.3.4 - 2026-08-29 17:40 PDT (Pacific)
 
 - Added a WORKSPACE column to Session History so you can scan which workspace each session belongs to and sort by it.
 - Bundled a background Chrome bridge with automatic browser selection that is aware of already-running browsers, clearer install guidance, and reload-state detection.
@@ -528,26 +536,26 @@
 - Showed all workspace wires faintly on the canvas while emphasizing the selected and hovered connections.
 - Streamlined remote host authentication and warm launches, and trimmed redundant canvas layout and reparse work for smoother interaction.
 
-## 1.3.3 - 2026-08-28
+## 1.3.3 - 2026-08-28 01:55 PDT (Pacific)
 
 - Made new AWS jump hosts ready faster by removing slow package updates from first-boot setup.
 - Added immediate failure detection and clearer recovery guidance when jump-host hardening does not complete.
 - Reapplied current security settings when reusing an existing jump host and refreshed inventory after setup timeouts.
 
-## 1.3.2 - 2026-08-28
+## 1.3.2 - 2026-08-28 01:33 PDT (Pacific)
 
 - Isolated AWS jump-host resources per Cairn installation so multiple Macs can safely share one AWS account.
 - Added guided AWS CLI setup, credential verification, and clearer sign-in recovery in Jump Host settings.
 - Added jump-host inventory controls to adopt, remove, or fully clean up Cairn resources while preserving infrastructure still used by another Mac.
 
-## 1.3.1 - 2026-08-27
+## 1.3.1 - 2026-08-27 23:13 PDT (Pacific)
 
 - Fixed active sessions showing a stale elapsed time instead of "now."
 - Corrected workspace status reconciliation so passive lifecycle states do not surface stale attention alerts.
 - Reduced false main-thread hang reports by confirming heartbeat stalls before recording them.
 - Kept main-thread hang history compact while preserving recent diagnostic details.
 
-## 1.3.0 - 2026-08-27
+## 1.3.0 - 2026-08-27 20:31 PDT (Pacific)
 
 - Added 20 named workspace color presets, including automatic theme-aware selection, with 64 distinct identity colors per palette.
 - Added a Workspace Colors menu with color swatches and live updates across workspace and activity views.
@@ -555,60 +563,60 @@
 - Simplified the side panel around workspace hierarchy and made compact status pills easier to scan.
 - Shortened the terminal-close input guard while preserving protection against repeated Control-C and Control-D presses.
 
-## 1.2.10 - 2026-08-27
+## 1.2.10 - 2026-08-27 19:04 PDT (Pacific)
 
 - Expanded Screen Band mode with top, bottom, left, and right placement options.
 - Refined workspace list interaction with single-click activation, clearer agent status colors, and per-section activity timelines.
 - Improved detection and presentation of coding-agent waiting and user-input states.
 - Added a short safety guard so repeated Control-C or Control-D presses after closing a terminal do not spill into the terminal that receives focus.
 
-## 1.2.9 - 2026-08-27
+## 1.2.9 - 2026-08-27 11:15 PDT (Pacific)
 
 - Added Screen Band mode to keep Cairn anchored at the top of the display at a configurable height.
 - Added options to resize other apps into the remaining screen space and keep Cairn above their windows.
 - Fixed side-panel presentation restoration and tightened Screen Band window observation for more reliable positioning.
 
-## 1.2.8 - 2026-08-26
+## 1.2.8 - 2026-08-27 06:56 PDT (Pacific)
 
 - Added remote terminal pooling so verified SSH hosts can keep shells and coding agents ready across workspace launches and app restarts.
 - Grouped remote workspaces by machine and improved remote provisioning reliability.
 - Made the session history pane resizable while Activity is collapsed, with its preferred height preserved across restarts.
 
-## 1.2.7 - 2026-08-26
+## 1.2.7 - 2026-08-26 17:33 PDT (Pacific)
 
 - Improved workspace activity tracking across split panes so status updates and recency reflect every active agent session.
 - Refined workspace list column sizing and alignment, especially when digest details are hidden.
 - Fixed the remote task sheet occasionally opening without its selected host.
 
-## 1.2.6 - 2026-08-26
+## 1.2.6 - 2026-08-26 14:28 PDT (Pacific)
 
 - Security hardening across the app and remote session handling.
 
-## 1.2.5 - 2026-08-25
+## 1.2.5 - 2026-08-25 17:17 PDT (Pacific)
 
 - Simplified workspace ordering around recent activity and clarified the List and Hierarchy layouts with mode-specific columns.
 - Added an option to view live sessions across every workspace, ordered by their latest update.
 - Updated macOS copy-on-select behavior so selected text is immediately available to standard paste.
 
-## 1.2.4 - 2026-08-25
+## 1.2.4 - 2026-08-25 13:05 PDT (Pacific)
 
 - Redesigned the workspace list with live sessions beside workspaces and a persistent side panel for faster navigation.
 - Added a master-detail session history with keyboard navigation, clearer details, and more responsive incremental updates.
 - Consolidated remote workspace management on Cairn's PTY service, including provisioning and session lifecycle controls.
 - Improved remote reliability by restoring workspaces automatically and detaching cleanly when an SSH connection drops.
 
-## 1.2.3 - 2026-08-24
+## 1.2.3 - 2026-08-24 01:15 PDT (Pacific)
 
 - Improved list and session-history responsiveness by consolidating background polling and removing expensive transcript discovery from row refreshes.
 - Added lightweight diagnostics for brief input delays, with activity attribution and stack sampling reserved for longer stalls.
 - Improved dark-mode readability across the workspace list and activity views, and removed section tint backgrounds for a cleaner, more consistent panel.
 
-## 1.2.2 - 2026-08-23
+## 1.2.2 - 2026-08-23 18:22 PDT (Pacific)
 
 - Prevented overlapping background refreshes from building up while Cairn monitors busy workspaces and long-running agent sessions.
 - Improved main-thread hang detection so reports use consistent samples and avoid false or stale diagnostics.
 
-## 1.2.1 - 2026-08-23
+## 1.2.1 - 2026-08-23 13:30 PDT (Pacific)
 
 - Made the shared timeline recent-first, defaulting to the last 12 hours while keeping plain shells and sessions without timestamps visible.
 - Improved session-history responsiveness by virtualizing rows, especially for workspaces with many recorded sessions.
@@ -616,7 +624,7 @@
 - Bounded live terminal analysis and made hang reports more accurate and responsive.
 - Improved jump-host tunnel startup reliability by simplifying connection setup and retrying transient first-connection failures.
 
-## 1.2.0 - 2026-08-22
+## 1.2.0 - 2026-08-22 20:52 PDT (Pacific)
 
 - Added one shared timeline control for filtering activity, workspaces, live sessions, and session history by time range.
 - Added a dedicated live-sessions section between the workspace list and session history.
@@ -625,7 +633,7 @@
 - Simplified workspace rows into a quieter departures-board layout with clearer section colors and improved light/dark appearance.
 - Improved session coverage by including indexed sessions even when an agent did not write a summary artifact.
 
-## 1.1.1 - 2026-08-22
+## 1.1.1 - 2026-08-22 12:12 PDT (Pacific)
 
 - Made agent integrations explicitly opt-in, with Install, Update, and Repair actions for detected Claude Code and Codex installations.
 - Added first-run and returning-user prompts for reviewing optional agent integrations without changing agent configuration automatically.
@@ -633,7 +641,7 @@
 - Added a direct trial download action to the license window.
 - Refined workspace panel colors and borders, and changed the default terminal theme to Builtin Light.
 
-## 1.1.0 - 2026-08-17
+## 1.1.0 - 2026-08-22 09:12 PDT (Pacific)
 
 - Replaced the five separate workspace views with one unified list beside the active terminal.
 - Added fast terminal, list, and split pivots with Command-1 and Command-2, plus a draggable divider.
