@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 2.16.5 - 2026-10-04 14:18 PDT (Pacific)
+
+- Show Knowledge update stages, batch sizes, elapsed time, and response progress.
+- Recover Knowledge updates automatically with smaller batches after timeouts or invalid responses.
+- Tighten Notes list spacing and make Tab move from the title to the body, then save and close the note.
+
 ## 2.16.4 - 2026-10-03 23:52 PDT (Pacific)
 
 - Show release dates and times in Pacific time in the About changelog and published release notes, including recovered times for past releases.
