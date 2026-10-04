@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.16.3 - 2026-10-04
+
+- Schedule Stay Awake for selected days and times.
+- Keep Knowledge in a dedicated workspace pane with Chief of Staff as the default assistant.
+- Prepare Notes work in the background and dismiss expanded notes by clicking outside them.
+- Keep chat messages attached to their original conversation and recover drafts when a send is rejected.
+- Open PDFs and images directly in Cairn and keep browser tab close controls visible.
+- Improve large agent launches, workspace recovery, remote cleanup, and memory protection setup.
+- Add an iOS Home Screen widget for recent notes and make note creation consistently available.
+- Improve iOS Notes responsiveness, terminal font controls, and access to Knowledge and Document Viewer.
+
 ## 2.16.2 - 2026-10-03
 
 - Add a Knowledge library with source citations, connections, corrections, and Markdown export.
