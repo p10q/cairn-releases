@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.16.6 - 2026-10-05 05:19 PDT (Pacific)
+
+- Search and read original Knowledge sources before analysis finishes, with clearer processing status and citations.
+- Explore Knowledge connections through searchable collection maps, discoveries, and original source evidence.
+- Speed up large Knowledge updates, organize routine task imports, and improve transfers to paired devices.
+- Add docked browser developer tools, an interactive console, browser identity controls, and an Outlook web client.
+- Create browser panes in the background and let authorized agents read page content through native document access.
+- Preserve remote workspaces and terminal layouts through SSH reconnects, and improve chat recovery diagnostics.
+- Keep work-search results readable when saved timestamps require precision rounding.
+
 ## 2.16.5 - 2026-10-04 14:18 PDT (Pacific)
 
 - Show Knowledge update stages, batch sizes, elapsed time, and response progress.
