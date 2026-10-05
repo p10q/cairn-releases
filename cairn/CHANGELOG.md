@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.16.7 - 2026-10-05 11:47 PDT (Pacific)
+
+- Catch Knowledge up faster with timed, bounded parallel workers that preserve explicit intent across directory changes.
+- Promote Agent Hooks to its own settings section and clean up relative URL display.
+- Default the browser agent control to on, and smooth out the web browser tab strip with rounded bezel buttons.
+- Preview spreadsheets and rich documents inline alongside existing document types.
+- Improve Notes date handling, quick-entry shortcuts, and link-click delivery to the native title.
+- Refresh model rates and flag partial costs so usage reads accurately.
+
 ## 2.16.6 - 2026-10-05 05:19 PDT (Pacific)
 
 - Search and read original Knowledge sources before analysis finishes, with clearer processing status and citations.
