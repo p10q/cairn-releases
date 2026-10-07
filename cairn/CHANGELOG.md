@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.16.8 - 2026-10-06 23:19 PDT (Pacific)
+
+- Explore Knowledge with a complete map, directed connections, compact page and source tables, and a single Back trail.
+- Restore scheduled chats and show where each scheduled message will be sent.
+- Keep browser asset overrides across relaunches, with individual controls for enabling saved overrides.
+- Inspect and compare browser resource timings, block selected requests, and configure consented proxy routing per profile.
+- Improve remote workspace launch acknowledgements and recovery of interrupted worker preparation.
+- Keep workspace menus reliable by moving existing menu items instead of copying them.
+
 ## 2.16.7 - 2026-10-05 11:47 PDT (Pacific)
 
 - Catch Knowledge up faster with timed, bounded parallel workers that preserve explicit intent across directory changes.
