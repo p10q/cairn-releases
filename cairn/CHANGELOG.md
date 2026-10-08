@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.17.0 - 2026-10-08 12:20 PDT (Pacific)
+
+- Explore Knowledge concepts with clearer category groups, connections to published pages, original-source context, and visit history. Agents can search original notes and retrieve published page links.
+- Capture browser screenshots at selected sizes, save comparison PNGs, and adjust color tolerance.
+- Manage watched browser assets and overrides in the native Inspector, including source details and filtering.
+- See compact build details and workspace glance labels, and restore saved single-pane terminals reliably.
+- Use arrow keys to move between workspace tabs in the web client.
+- Improve remote worker mission checks, evidence handling, and bounded lock waits.
+
 ## 2.16.9 - 2026-10-07 18:44 PDT (Pacific)
 
 - Capture browser screenshots, compare them with saved baselines at the current or saved size, and rotate responsive viewport presets.
