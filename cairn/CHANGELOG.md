@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.16.9 - 2026-10-07 18:44 PDT (Pacific)
+
+- Capture browser screenshots, compare them with saved baselines at the current or saved size, and rotate responsive viewport presets.
+- Browse Knowledge pages and concepts together, preserve your browsing scope, and filter source activity with saved custom date ranges.
+- Save and close inline Notes with Shift-Return, prevent Quick Note clipping, and improve attachment filename validation.
+- Open file and document references from chats and Notes, remember recent viewer files, and recover Markdown tables separated by blank lines.
+- Show build summaries and process details in Signals, and make clicks reliable across its rows and columns.
+- Keep chat turns recoverable, stream Pi activity to the terminal, and close the selected pane with Command-W.
+
 ## 2.16.8 - 2026-10-06 23:19 PDT (Pacific)
 
 - Explore Knowledge with a complete map, directed connections, compact page and source tables, and a single Back trail.
