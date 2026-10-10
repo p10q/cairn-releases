@@ -1,5 +1,22 @@
 # Cairn changelog
 
+## 2.18.0 - 2026-10-10 01:45 PDT (Pacific)
+
+- Draft reviewed engineering teams from a chat, place work across enrolled computers, and choose a coordinator using measured availability.
+- Transfer verified source into managed workspaces, follow dependent handoffs, retry independent work, and review results before integration.
+- Recover remote work after login, network return, offline wake, or host retirement, with saved execution files to follow progress.
+- Keep response details hidden by default with a separate saved setting. “Work connected” explains the chat/work link; error codes appear with details, and useful errors retain their time and expire.
+- Distinguish Pi process failures from response-reader failures, retaining bounded diagnostics in the run result.
+- Preserve completed chat replies in progress after reopening or reusing a session, and keep an older reply from satisfying a newer attempt.
+- Configure owned Knowledge Spaces and give admitted agents access to reviewed Library memories, scoped originals, and their graph connections through existing access controls.
+- Browse clearer Knowledge groups, categories, original notes, and connections, including a note-links lens and more complete agent retrieval.
+- Grow Quick Note after layout to avoid reentrant resizing, and keep web document accessibility reads on the main actor.
+- Improve Notes exports, attachment Undo, document pagination, Markdown history, and heading anchors.
+- Handle mixed-case browser permission hosts, literal local-file path characters, searches, and screenshot history across fragment navigation.
+- Preserve live workspace directories, session diffs, and active history summaries, including repositories with spaces in their paths.
+- Improve shortcut searches and selection, accessible chart values, spreadsheet row/column selection, and long CSV records.
+- Strengthen test selection, installation promotion validation, incremental module handling, and bundled plugin recovery.
+
 ## 2.17.0 - 2026-10-08 12:20 PDT (Pacific)
 
 - Explore Knowledge concepts with clearer category groups, connections to published pages, original-source context, and visit history. Agents can search original notes and retrieve published page links.
