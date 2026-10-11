@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.18.1 - 2026-10-10 18:11 PDT (Pacific)
+
+- Queue chat follow-ups until the current response finishes, including chats with long histories.
+- Add configurable, bounded turn routing that selects available runtimes and preserves explicit agent choices.
+- Discover and run governed Cairn commands from native chats, retaining uncertain outcomes for review.
+- Apply Notes changes without reloading the full collection and move note reads and updates off the main actor.
+- Add structured Records to Knowledge with typed fields, linked collections, reviewed changes, and Space access controls.
+- Select past sessions for Spaces, let admitted agents cite selected turns, and show owners retrieval history.
+- Promote reviewed room memories into Spaces, inspect saved copies, and remove access to promoted memories.
+- Strengthen remote team preparation with pinned coordinator routes, reviewed peer enrollment, and return-route checks before worker activation.
+
 ## 2.18.0 - 2026-10-10 01:45 PDT (Pacific)
 
 - Draft reviewed engineering teams from a chat, place work across enrolled computers, and choose a coordinator using measured availability.
