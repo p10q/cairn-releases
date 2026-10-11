@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.18.2 - 2026-10-11 07:04 PDT (Pacific)
+
+- Preserve chat context, reject placeholder replies, and deliver durable pi subagent updates to the originating conversation.
+- Add native voice input for chat messages, thread replies, and terminal text, with recoverable drafts, reliable permission handling, and protection against delayed send results.
+- Organize Knowledge automatically with configured agents while preserving complete originals, source citations, and processing history.
+- Add daily and weekly workspace reviews with cited session evidence, saved decisions, lessons, experiments, and exploration questions.
+- Track project goals, progress, deadlines, and host readiness from a native project view.
+- Continue worker conversations from cached remote sessions, load diffs on demand, and bind merges to the reviewed revision.
+- Inspect Linux agent desktops from a native fleet viewer.
+- Improve shared host recovery and preserve complete Knowledge transfers across reconnects.
+- Reduce launch stalls by preparing symbol resources in the background and deferring tooltip setup.
+
 ## 2.18.1 - 2026-10-10 18:11 PDT (Pacific)
 
 - Queue chat follow-ups until the current response finishes, including chats with long histories.
