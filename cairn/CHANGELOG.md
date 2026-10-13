@@ -1,5 +1,18 @@
 # Cairn changelog
 
+## 2.18.3 - 2026-10-13 12:06 PDT (Pacific)
+
+- Improve session history with transcript search, quick filters, daily navigation, follow-up signals, and saved personal reviews.
+- Reduce Dock layout stalls and improve hang diagnostics; keep terminal focus clicks from reaching mouse-reporting applications.
+- Improve remote host recovery and terminal delivery, including reconnect behavior for Cairn Remote.
+- Add a native Document Editor with layers, artboards, vector paths, text, images, brushes, masks, reusable components, and PNG, PDF, and SVG export.
+- Preserve drawing history, recover unsaved edits, and review agent-generated images before inserting them into a drawing.
+- Build and customize local tools with configured agents, verified candidate versions, and retained accepted versions.
+- Browse, back up, disable, and restore installed agent skills; create selective portable backups with reviewed restoration.
+- Connect the Knowledge map and reading view, improve Slack research recovery, and keep project plans in dedicated dock panels.
+- Fit Quick Access and Signals into narrow panels, add Lock Now, and improve control accessibility.
+- Improve voice permissions, workspace organization, background About scrolling, and build queue progress.
+
 ## 2.18.2 - 2026-10-11 07:04 PDT (Pacific)
 
 - Preserve chat context, reject placeholder replies, and deliver durable pi subagent updates to the originating conversation.
