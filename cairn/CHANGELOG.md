@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.4 - 2026-10-14 00:25 PDT (Pacific)
+
+- Remove legacy terminal display links involved in freezes when displays change.
+- Handle terminal transport shutdown without crashing the app.
+- Group split workspace terminals by directory and host, with clearer session activity and keyboard selection.
+- Preserve drawing geometry through rotation, shear, scaling, resizing, clipboard operations, and SVG export.
+- Add native layer mask painting and keep queued brush strokes tied to their original drawing context.
+- Improve remote frame delivery and mobile reconnection identity validation.
+
 ## 2.18.3 - 2026-10-13 12:06 PDT (Pacific)
 
 - Improve session history with transcript search, quick filters, daily navigation, follow-up signals, and saved personal reviews.
