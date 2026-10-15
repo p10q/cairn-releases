@@ -1,5 +1,19 @@
 # Cairn changelog
 
+## 2.18.5 - 2026-10-15 00:49 PDT (Pacific)
+
+- Add Clock timers and alarms, with countdowns and timer controls in Quick Access.
+- Add Music Studio with audio recording, MIDI editing, mixing, and shared agent commands.
+- Add a native video editor with timeline editing, effects, keyframes, and recovery history.
+- Add Cairn Studio for vector drawing, 3D scenes, animation, and compositing.
+- Add browser extensions owned by each browser profile.
+- Improve drawing gradient fills, SVG import, compound contours, and responsive appearance editing.
+- Browse session history by complete calendar days and reveal sessions in their workspaces.
+- Improve protected clipboard pastes, session binding, navigator refreshes, and worktree cleanup.
+- Improve Knowledge sync recovery and compressed archive compatibility with iOS.
+- Improve Knowledge subject consolidation and grounding, with tools for auditing the complete store.
+- Add a Marketing content workflow and tools for reviewing process improvements.
+
 ## 2.18.4 - 2026-10-14 00:25 PDT (Pacific)
 
 - Remove legacy terminal display links involved in freezes when displays change.
