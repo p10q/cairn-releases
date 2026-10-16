@@ -1,5 +1,17 @@
 # Cairn changelog
 
+## 2.18.6 - 2026-10-15 15:26 PDT (Pacific)
+
+- Add docked 3D Studio workspaces with shaded mesh editing, dimensioned primitives, and viewport navigation.
+- Edit 3D transforms with rotation and scale gizmos and animation curves, with rendered frames aligned to the viewport.
+- Reconstruct audio excerpts as editable instrument tracks and separate selected clips into aligned audio stems in Music Studio.
+- Detect clip tempo, slice audio at transients, and reverse or normalize selected audio clips.
+- Improve Music Studio timeline navigation, drag controls, and keyboard command availability.
+- Open Cairn video, studio, sketch, and backup packages directly from Finder.
+- Keep window manager controls usable in compact rows.
+- Preserve saved links and commands in Knowledge pages, improve source grounding, and keep incremental updates scoped to selected originals.
+- Improve Knowledge repair benchmarks and separate reviews of subject support and parent relationships.
+
 ## 2.18.5 - 2026-10-15 00:49 PDT (Pacific)
 
 - Add Clock timers and alarms, with countdowns and timer controls in Quick Access.
