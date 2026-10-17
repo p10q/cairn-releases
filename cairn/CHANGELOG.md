@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.8 - 2026-10-17 08:25 PDT (Pacific)
+
+- Improve session history search, workspace selection, and focused window placement.
+- Keep Music playback responsive during long audio rebuilds, preserve audio across clip splits, and improve output-device recovery and keyboard transport controls.
+- Refine Video, Drawing, and Studio editing, including grouped duplicates, inherited materials, and compact workspace controls.
+- Improve Notes ordering and calendar refresh while preserving editor identity and drafts.
+- Strengthen agent-room recovery, queued workflow confirmation, and remote workstation setup.
+- Simplify iPhone note capture and improve mobile terminal and connection recovery.
+
 ## 2.18.7 - 2026-10-16 15:30 PDT (Pacific)
 
 - Follow the Mac's light or dark appearance and refresh native panel styling when the system theme changes.
