@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.18.7 - 2026-10-16 15:30 PDT (Pacific)
+
+- Follow the Mac's light or dark appearance and refresh native panel styling when the system theme changes.
+- Reuse agent workspaces for the same directory and improve mobile workspace recovery when a connection stalls.
+- Improve panel, chat, Notes, Knowledge, and diagnostic performance while preserving drafts and session ownership.
+- Keep Music, Video, and Studio edits and exports attached to the project that started them, with smoother timeline and editing controls.
+- Expand native browser document actions and improve recovery for queued work.
+
 ## 2.18.6 - 2026-10-15 15:26 PDT (Pacific)
 
 - Add docked 3D Studio workspaces with shaded mesh editing, dimensioned primitives, and viewport navigation.

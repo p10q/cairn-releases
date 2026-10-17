@@ -3,14 +3,14 @@
     <channel>
         <title>Cairn</title>
         <item>
-            <title>2.18.6</title>
-            <pubDate>Thu, 15 Oct 2026 17:08:37 -0700</pubDate>
+            <title>2.18.7</title>
+            <pubDate>Fri, 16 Oct 2026 21:38:39 -0700</pubDate>
             <link>https://p10q.com/#cairn</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>2.18.6</sparkle:shortVersionString>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>2.18.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.6.dmg" length="93452095" type="application/octet-stream" sparkle:edSignature="j9NCy/OuDaHAHOevy34jIjjyYPH/LTJhQk6pUEyx9Sf/P4xl1x2JWMJAFhQAOb8/h7x/+BS/Fr3BXPA4I8E0DQ=="/>
+            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.7.dmg" length="93747618" type="application/octet-stream" sparkle:edSignature="tM4bjOuYDEUlHdgYV/rzY9DL5THFY3boDD4gegVKo0RxrCAVSOODu+ls7ErMYHD9EYRMDeul06DAGWu5NwyMBg=="/>
         </item>
     </channel>
 </rss>
