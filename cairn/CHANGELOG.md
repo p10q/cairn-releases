@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.18.10 - 2026-10-18 07:07 PDT (Pacific)
+
+- Add downloadable natural English voices to Friend, with on-device speech, voice previews, adjustable pace and volume, replay, and pause/resume controls.
+- Improve Friend's full-person rendering with seven character choices, portrait framing, camera controls, and restrained expressions and gestures that respond to the conversation.
+- Export Friend conversations as compact HTML fragments, plain text, or JSON; select individual messages for export and print saved conversations.
+- Preserve drafts, search conversations, adjust transcript text size, and keep reading position while replies arrive.
+- Show observed web activity and reply links when using a web-capable Cairn Chat agent, with clearer setup errors and reply retries.
+- Improve saved-memory controls with source details, save confirmations, visibility into facts selected for replies, and confirmation before edits that clear a conversation.
+- Improve workstation terminal restoration and readiness checks, resume desktop viewing when it becomes visible, and reduce overhead when receiving full-width desktop frames.
+
 ## 2.18.9 - 2026-10-18 02:42 PDT (Pacific)
 
 - Add Friend, a native companion panel with selectable characters, Chat-powered replies, and facial animation synchronized with speech.
