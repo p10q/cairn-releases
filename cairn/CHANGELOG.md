@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.9 - 2026-10-18 02:42 PDT (Pacific)
+
+- Add Friend, a native companion panel with selectable characters, Chat-powered replies, and facial animation synchronized with speech.
+- Expand Music Studio with downloadable SoundFont instruments and drum kits, instrument matching, editable recovered drum hits, and selectable audio rebuild ranges.
+- Recover automatically from sustained memory pressure while preserving active work.
+- Improve persistent workstation setup, contained workspace preparation, and reviewed team placement within the existing engine budget. Keep managed workstation terminals in their prepared checkout.
+- Add optional secure iPhone screen synchronization with reconnect recovery and SSH fallback.
+- Fix intermittent browser profile deletion failures and cancellation errors in agent requests.
+
 ## 2.18.8 - 2026-10-17 08:25 PDT (Pacific)
 
 - Improve session history search, workspace selection, and focused window placement.
