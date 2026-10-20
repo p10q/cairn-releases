@@ -1,5 +1,18 @@
 # Cairn changelog
 
+## 2.18.11 - 2026-10-19 21:24 PDT (Pacific)
+
+- Preview a workspace's recent session history by hovering over its navigator entry, with the latest reply kept in view.
+- Browse session prompts and inspect conversations and tool activity more easily; reduce history reload and startup stalls.
+- Install optional tools from a signed catalog in Plugins, with download progress, cancellation, and verified packages.
+- Expand Friend with downloadable character libraries, photographic environments, imported rigs and recordings, wardrobe and pose controls, and more natural expressions and gestures.
+- Add opt-in local Friend extensions, improve character loading and avatar startup reliability, and orbit around a selected scene surface with Command-drag.
+- Move a live terminal split into a new workspace while preserving its session, working directory, and remote execution target.
+- Take control of live remote desktops with keyboard and pointer input, with more reliable SSH startup, retries, and display visibility.
+- Copy remote desktop diagnostics or collect them through Cairn's developer API, including connection and frame status without credentials, screenshots, or typed input.
+- Preserve portable session evidence in Knowledge with scoped provenance, synchronization checks, and removal of forgotten evidence from stored archives.
+- Start new quick notes with focus in the title, and improve release privacy checks while preserving existing stored memory scope identities.
+
 ## 2.18.10 - 2026-10-18 07:07 PDT (Pacific)
 
 - Add downloadable natural English voices to Friend, with on-device speech, voice previews, adjustable pace and volume, replay, and pause/resume controls.
