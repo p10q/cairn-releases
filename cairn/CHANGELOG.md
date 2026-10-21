@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.12 - 2026-10-20 13:48 PDT (Pacific)
+
+- Keep Friend responsive while orbiting the camera, with continuous movement, improved listening reactions, calibrated environment lighting, and shared gestures for weighing options and expressing uncertainty.
+- Copy Friend reply diagnostics, including the current error and identifiers needed to investigate an interrupted reply.
+- Reduce navigator, session-history, resource-history, and Notes synchronization stalls.
+- Improve portable workspace transfer validation, checkpoint recovery, and safe handling of changed source files.
+- Preserve forgotten session-evidence boundaries in Knowledge and recover large Standing Agent snapshots within response limits.
+- Strengthen build-cache validation and artifact replacement so failed builds preserve previously accepted resources.
+
 ## 2.18.11 - 2026-10-19 21:24 PDT (Pacific)
 
 - Preview a workspace's recent session history by hovering over its navigator entry, with the latest reply kept in view.
