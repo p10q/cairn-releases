@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.18.13 - 2026-10-21 22:20 PDT (Pacific)
+
+- Plan and run Goal Solver projects in a native pane, with outcome-based goals, evidence graphs, timeline replay, and recovery of interrupted work.
+- Research in a native pane and save cited findings to Knowledge.
+- Run selected Chat tasks from scheduled reviews, and route bounded Chat and Friend conversations through local models.
+- Add images and files to Friend conversations, show sent messages immediately, and improve conversational expressions, speech, gestures, clothing controls, and courtyard, lakeside, and woodland scenery.
+- Discover enrolled workstations and their execution profiles, recover interrupted worker preparation and transfers, and view desktop previews through MCP.
+- Improve side-panel responsiveness and explain Knowledge account failures and recovery.
+- Strengthen native worker cancellation, restart recovery, and build-cache consistency.
+
 ## 2.18.12 - 2026-10-20 13:48 PDT (Pacific)
 
 - Keep Friend responsive while orbiting the camera, with continuous movement, improved listening reactions, calibrated environment lighting, and shared gestures for weighing options and expressing uncertainty.
