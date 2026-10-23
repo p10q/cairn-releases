@@ -1,5 +1,18 @@
 # Cairn changelog
 
+## 2.18.14 - 2026-10-23 01:25 PDT (Pacific)
+
+- Arrange the Goal Solver dashboard with configurable summary, graph, work, and activity cards, and inspect evidence, worker progress, and recent history together.
+- Start and stop the selected goal with clearer setup and readiness guidance, recover interrupted work, and reopen completed goals without disturbing other active goals.
+- Control project learning and recall, save grounded session evidence to Knowledge, and review the impact of forgetting saved sources.
+- Improve memory consent, source attribution, recall delivery, and recovery of interrupted forgetting.
+- Receive faster Chat and Friend replies with local model prewarming and bounded response times.
+- Expand Friend conversation gestures, speech timing, walking, celebrations, and listening feedback, improve scene responsiveness, and provide updated downloads for all seven characters.
+- Show active Music Studio tracks first with note previews and CPU usage, and clear stale meter readings when playback stops.
+- Sort resource monitor tables, adjust window layouts inline, and open signal details beside the workspace.
+- Strengthen remote workstation setup, resource limits, worker recovery, log reads, and authenticated jump connections.
+- Improve side-panel responsiveness, native module compatibility, and build progress reporting. Install Build Steward 0.6.15 for remote jobs and clearer build admission controls.
+
 ## 2.18.13 - 2026-10-21 22:20 PDT (Pacific)
 
 - Plan and run Goal Solver projects in a native pane, with outcome-based goals, evidence graphs, timeline replay, and recovery of interrupted work.

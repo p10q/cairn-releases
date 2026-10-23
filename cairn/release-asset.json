@@ -1,10 +1,10 @@
 {
-  "tag": "macos-2.18.13",
-  "name": "Cairn-2.18.13.dmg",
-  "sha256": "5172ca427359def4746575bb32ec3da24e59fb40afe3405ea3458c6c03ba6e61",
-  "length": 112805549,
+  "tag": "macos-2.18.14",
+  "name": "Cairn-2.18.14.dmg",
+  "sha256": "d4ef744aaaab705c59106bd762a20bca25c2d2485c9a857d988fc48f67c4a8dd",
+  "length": 149564088,
   "paths": [
-    "48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.13.dmg",
+    "48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.14.dmg",
     "cairn/Cairn-latest.dmg"
   ]
 }
