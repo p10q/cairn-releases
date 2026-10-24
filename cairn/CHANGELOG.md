@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.18.15 - 2026-10-23 20:04 PDT (Pacific)
+
+- Update Cairn Friend to 0.1.66.
+- Set up pi with guided Node installation, automatic discovery, sign-in, and model selection.
+- Install the tools needed for YouTube music imports with guided progress, cancellation, and automatic rechecking.
+- Receive clearer guidance for initial Notes setup and Keychain access.
+- Recover Goal Solver worker failures with bounded retries, visible diagnostics, and safer handling of older runtimes.
+
 ## 2.18.14 - 2026-10-23 01:25 PDT (Pacific)
 
 - Arrange the Goal Solver dashboard with configurable summary, graph, work, and activity cards, and inspect evidence, worker progress, and recent history together.
