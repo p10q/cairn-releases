@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.18.16 - 2026-10-24 06:57 PDT (Pacific)
+
+- Update Cairn Friend to 0.1.71.
+
 ## 2.18.15 - 2026-10-23 20:04 PDT (Pacific)
 
 - Update Cairn Friend to 0.1.66.
