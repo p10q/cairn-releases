@@ -1,5 +1,20 @@
 # Cairn changelog
 
+## 2.18.17 - 2026-10-25 01:17 PDT (Pacific)
+
+- Open documents and Markdown previews in tabs, including multiple files at once, while preserving each document's position and unsaved work.
+- Export the complete Notes database and reveal saved backups in Finder.
+- Expand Music Studio with score notation and exports, MIDI import and export, retained recording takes, phrase comping, and project recovery.
+- Follow score playback, link music editor views, and keep the timeline ruler visible while scrolling.
+- Zoom the drum editor and click music fields to edit them without interrupting playback shortcuts.
+- Recover failed goal planning, show clearer errors, and give queued tasks a turn before retrying failures.
+- Monitor goal progress and saved artifacts more clearly, and reuse compatible agent workers.
+- Load paired iPhones more efficiently and recover Notes uploads after re-pairing.
+- Fix managed Pi agent launches and show resident agent errors correctly.
+- Improve responsiveness during terminal launches and agent recovery.
+- Fix microphone recording crashes in Music Studio.
+- Update Cairn Friend to 0.1.74.
+
 ## 2.18.16 - 2026-10-24 06:57 PDT (Pacific)
 
 - Update Cairn Friend to 0.1.71.
