@@ -1,5 +1,12 @@
 # Cairn changelog
 
+## 2.18.18 - 2026-10-25 09:40 PDT (Pacific)
+
+- Explore directory sizes with a cached treemap, including local folders and remote hosts, filters, and file details.
+- Keep treemap navigation responsive and retain the current folder when refreshing a scan.
+- Improve Music Studio responsiveness and playback efficiency in dense projects.
+- Make build-cache reuse more reliable across worktrees and source changes.
+
 ## 2.18.17 - 2026-10-25 01:17 PDT (Pacific)
 
 - Open documents and Markdown previews in tabs, including multiple files at once, while preserving each document's position and unsaved work.
