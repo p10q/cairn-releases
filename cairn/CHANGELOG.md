@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.18.19 - 2026-10-25 19:16 PDT (Pacific)
+
+- Explore branch history with an interactive commit map, branch search, zoom, and commit details.
+- Exclude directories and files from treemap scans and adjust the scan cache limits.
+- Keep commit maps fitted to their panel when switching history views.
+- Improve build-cache reuse and Video Editor module isolation.
+- Update Cairn Friend to 0.1.75.
+
 ## 2.18.18 - 2026-10-25 09:40 PDT (Pacific)
 
 - Explore directory sizes with a cached treemap, including local folders and remote hosts, filters, and file details.
