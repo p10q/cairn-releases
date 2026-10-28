@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.18.20 - 2026-10-27 11:25 PDT (Pacific)
+
+- Monitor CPU pressure and network traffic with recent history, per-process readings, and adjustable bandwidth budgets.
+- Turn connected displays off from Quick Access while keeping the desktop awake; restore brightness with keyboard or pointer input.
+- View build history and display plugin chart series with separate axes.
+- Keep branch names and controls visible while scrolling commit maps, with clearer merge status and path counts.
+- Animate completed Notes out of the list and respect Reduce Motion.
+- Improve optional Fleet workspace recovery, preparation retries, checkpointing, and result review.
+- Reduce startup and About window layout work and improve build-cache reuse.
+
 ## 2.18.19 - 2026-10-25 19:16 PDT (Pacific)
 
 - Explore branch history with an interactive commit map, branch search, zoom, and commit details.
