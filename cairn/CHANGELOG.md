@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 2.18.21 - 2026-10-28 01:21 PDT (Pacific)
+
+- Open clicked local file links directly in their associated app.
+- Show the running Cairn version, source revision, build age, and uptime in Signals.
+- Clarify Fleet setup and keep its file pickers attached to the correct window.
+- Improve large session-history reading and memory search.
+- Update the terminal engine with fixes for split tabs, clipboard protection, window restoration, and terminal rendering.
+
 ## 2.18.20 - 2026-10-27 11:25 PDT (Pacific)
 
 - Monitor CPU pressure and network traffic with recent history, per-process readings, and adjustable bandwidth budgets.

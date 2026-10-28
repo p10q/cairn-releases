@@ -3,14 +3,14 @@
     <channel>
         <title>Cairn</title>
         <item>
-            <title>2.18.20</title>
-            <pubDate>Tue, 27 Oct 2026 18:03:57 -0700</pubDate>
+            <title>2.18.21</title>
+            <pubDate>Wed, 28 Oct 2026 05:11:54 -0700</pubDate>
             <link>https://p10q.com/#cairn</link>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>2.18.20</sparkle:shortVersionString>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>2.18.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.20.dmg" length="196608680" type="application/octet-stream" sparkle:edSignature="bLLPK318zNUF5+S6dNX31Fb+hvJq+tyXOeRfpmqReCiLpjRhaWz2RVieqEcyLTSkABZCLKd6Np1H5pjHL8xSCg=="/>
+            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cairn-2.18.21.dmg" length="194529417" type="application/octet-stream" sparkle:edSignature="zqSub59kBDbqeSgmUzCi+UL44pYfW8+hRzR2CnYsvu0vOKmP2qGJAUU7NtTHVOdwSa4Wd+Cl96vQvW2wlhE0AQ=="/>
         </item>
     </channel>
 </rss>
