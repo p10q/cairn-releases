@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 2.18.22 - 2026-10-30 00:40 PDT (Pacific)
+
+- Group remote workspaces by host and show compact navigator cards with task previews.
+- Add Back and Forward navigation in Knowledge, keep filters together, and preview notes and nested concepts beside the concept map.
+- Improve Fleet setup, saved task drafts, recovery guidance, and access to archived task history and verification results.
+- Add a scoped goals overview and show compact commit ages in Git history maps.
+- Make Notes easier to edit with a single click and improve links and keyboard handling in the editor.
+- Resolve terminal file links from the persistent shell's working directory.
+- Preserve image attachments in Chat and improve progress and error reporting, agent package validation, and build queue visibility.
+
 ## 2.18.21 - 2026-10-28 01:21 PDT (Pacific)
 
 - Open clicked local file links directly in their associated app.
