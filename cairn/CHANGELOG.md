@@ -1,5 +1,10 @@
 # Cairn changelog
 
+## 2.18.23 - 2026-10-30 16:20 PDT (Pacific)
+
+- Make targeted Fleet interruptions reject stale run and process identities before stopping an agent.
+- Reduce repeated build work, preserve compiler limits, and improve selected test routing to configured workers.
+
 ## 2.18.22 - 2026-10-30 00:40 PDT (Pacific)
 
 - Group remote workspaces by host and show compact navigator cards with task previews.
