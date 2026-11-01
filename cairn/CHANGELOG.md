@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.24 - 2026-10-31 15:44 PDT (Pacific)
+
+- Monitor CPU, memory, storage, network traffic, and uptime for remote hosts.
+- Customize the combined Quick Access pane while keeping automatic chat refreshes responsive.
+- Create projects without workspace setup and get clearer guidance for checkouts saved on another computer.
+- Keep goal work in persistent chats, preserve conversation names and participants, and improve task recovery.
+- Give the Knowledge graph more room to explore and improve note expansion on iPhone and iPad.
+- Improve remote build recovery and reclaim inactive worker caches safely.
+
 ## 2.18.23 - 2026-10-30 16:20 PDT (Pacific)
 
 - Make targeted Fleet interruptions reject stale run and process identities before stopping an agent.
