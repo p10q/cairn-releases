@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 2.18.25 - 2026-11-01 07:08 PST (Pacific)
+
+- Fix a startup crash that could prevent Cairn from opening after installing or updating.
+
 ## 2.18.24 - 2026-10-31 15:44 PDT (Pacific)
 
 - Monitor CPU, memory, storage, network traffic, and uptime for remote hosts.
