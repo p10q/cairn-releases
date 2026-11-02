@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 2.18.26 - 2026-11-01 21:44 PST (Pacific)
+
+- Guide new work through computer selection, agent sign-in, project setup, and workspace readiness, with six starter projects.
+- Preserve setup drafts and recover interrupted task, capacity, and workspace actions safely.
+- Simplify Goal Solver navigation, search, and folder creation while preserving drafts and graph position.
+- Guide paired Mac build worker setup with clearer tool, storage, and signing checks.
+- Wrap crowded terminal panes into a scrollable grid while preserving terminal focus.
+- Make session hover previews optional in workspace list settings.
+- Keep Knowledge page titles and reading navigation visible in compact panels.
+- Improve Cairn Remote document reading, Goal Solver panels, and Notes and Knowledge updates.
+
 ## 2.18.25 - 2026-11-01 07:08 PST (Pacific)
 
 - Fix a startup crash that could prevent Cairn from opening after installing or updating.
