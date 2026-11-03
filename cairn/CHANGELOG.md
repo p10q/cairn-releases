@@ -1,5 +1,18 @@
 # Cairn changelog
 
+## 2.18.27 - 2026-11-02 18:03 PST (Pacific)
+
+- Keep new-work setup, project creation, and workspace selection inline, with clearer readiness guidance in narrow panels.
+- Repair interrupted workspace startup, preserve existing worker settings, and make recent service logs available during setup.
+- Compact quick access with icons, shorter resource readings, and visible build counts.
+- Reveal hidden panel headers after a sustained hover to avoid accidental interruptions.
+- Preserve the Cairn app icon when SVG rendering tools are unavailable.
+- Restore the most recent workspace after closing a terminal, and reload its dock pane reliably.
+- Read, copy, and save completed goals' written findings alongside their linked files.
+- Add computer storage maintenance controls and improve recovery after agent setup repairs.
+- Prevent restored terminal statuses from sending a burst of old completion notifications after restart.
+- Preserve individual Fleet controls for accessibility tools.
+
 ## 2.18.26 - 2026-11-01 21:44 PST (Pacific)
 
 - Guide new work through computer selection, agent sign-in, project setup, and workspace readiness, with six starter projects.
