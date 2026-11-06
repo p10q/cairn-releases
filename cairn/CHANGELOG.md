@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 2.18.28 - 2026-11-05 17:15 PST (Pacific)
+
+- Improve computer preparation with reviewed setup, clearer prerequisite checks, and recovery that resumes interrupted work.
+- Open Fleet v2 from the View menu to run coding agents directly on SSH computers. Preserve project changes and agent sessions when transferring Fleet tasks between computers, with visible credential and sync status.
+- Recover blocked computer resets, keep checkout drafts through setup repairs, and return to saved work when closing preparation.
+- Keep Fleet controls usable in narrow panels, preserve their accessibility, and restrict computer management to owner clients.
+- Open linked files from completed goals' findings and results.
+- Reveal the current workspace in the navigator with Command-Shift-J.
+
 ## 2.18.27 - 2026-11-02 18:03 PST (Pacific)
 
 - Keep new-work setup, project creation, and workspace selection inline, with clearer readiness guidance in narrow panels.
