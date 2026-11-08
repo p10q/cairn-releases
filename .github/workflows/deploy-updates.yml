@@ -33,7 +33,7 @@ jobs:
           asset_sha="$(jq -er '.sha256' "$manifest")"
           asset_length="$(jq -er '.length' "$manifest")"
           [[ "$asset_tag" =~ ^macos-[0-9]+\.[0-9]+\.[0-9]+$ ]]
-          [[ "$asset_name" =~ ^Cairn-[0-9]+\.[0-9]+\.[0-9]+\.dmg$ ]]
+          [[ "$asset_name" =~ ^(Cairn|Cell)-[0-9]+\.[0-9]+\.[0-9]+\.dmg$ ]]
           [[ "$asset_sha" =~ ^[a-f0-9]{64}$ ]]
           [[ "$asset_length" =~ ^[0-9]+$ ]]
           asset_dir="$RUNNER_TEMP/cairn-release-asset"
@@ -46,7 +46,7 @@ jobs:
           git archive HEAD | tar --exclude='.github' -x -C _site
           while IFS= read -r destination; do
             [[ "$destination" == cairn/Cairn-latest.dmg ||
-              "$destination" =~ ^[a-f0-9]{64}/Cairn-[0-9]+\.[0-9]+\.[0-9]+\.dmg$ ]]
+              "$destination" =~ ^[a-f0-9]{64}/(Cairn|Cell)-[0-9]+\.[0-9]+\.[0-9]+\.dmg$ ]]
             mkdir -p "_site/$(dirname "$destination")"
             cp "$asset_file" "_site/$destination"
           done < <(jq -er '.paths[]' "$manifest")
