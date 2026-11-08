@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 3.0.0 - 2026-11-07 09:25 PST (Pacific)
+
+- Cairn is now Cell. Update app menus, setup, bundled panels, and customer-facing text while retaining existing workspaces, preferences, credentials, and automatic updates.
+- Run Fleet through its independently reloadable Swift plugin. Start task drafts before choosing a computer, or start a project from a name and initial prompt. Review project configuration and sign-in changes, and resume saved preparation after repairs.
+- Make Fleet startup and connection failures actionable, with bundled setup guidance and recovery that returns to the interrupted task.
+- Explore Knowledge topics in readable, collapsible trees. Review suggestions to consolidate topic aliases, preserve source evidence, and undo consolidation decisions.
+- View observed agent response waits, waits after tools, and tool durations in Activity, with trends by model, account, and region.
+- Track swap usage and memory pressure in Signals, with alerts for sustained pressure. Refresh activity dashboards away from the main thread.
+- Split every panel kind, opening a workspace beside panels that support only one instance. Reveal panel controls sooner and fit Quick Access to the current window width.
+- Improve remote snapshot fitting, bounded transcript reads, Finder Open With registrations, and release artifact verification.
+
 ## 2.18.28 - 2026-11-05 17:15 PST (Pacific)
 
 - Improve computer preparation with reviewed setup, clearer prerequisite checks, and recovery that resumes interrupted work.
