@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 3.1.0 - 2026-11-08 04:12 PST (Pacific)
+
+- Add Audit Log to review durable workspace, terminal, agent, and remote-runtime events. Search metadata, filter by time and related work, and inspect recording coverage.
+- Add optional idle-terminal cleanup with configurable timeouts, keep-open exemptions, and optional saved drafts. Guard cleanup with fresh shell-only evidence and protect terminals that are in use.
+- Continue the original Fleet task or project after repairing its computer. Preserve preparation and configuration choices, restore coordinator state, and review bounded action and step diagnostics tied to the original work.
+- Move Workspace Launcher into Remote Hosts, preserving launcher drafts when switching sections and restoring existing launcher panes into the new location.
+- Make Marketing, Figma Recents, Outlook Triage, Slack Triage, and Zoom Triage panels opt in through Plugins. Preserve newer installed plugin packages when updating the app.
+- Repair cyclic workspace folders during restore, retain duplicate-workspace recovery data, and count shared descendants once.
+- Let repository plugins use the full panel width and share cached worktree metadata for checkout links. Recheck linked checkouts before opening their panels.
+- Keep Mermaid diagrams consistent while resizing, retire the Work Search panel, and strengthen build-cache and release-artifact verification.
+
 ## 3.0.0 - 2026-11-07 09:25 PST (Pacific)
 
 - Cairn is now Cell. Update app menus, setup, bundled panels, and customer-facing text while retaining existing workspaces, preferences, credentials, and automatic updates.
