@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 3.1.1 - 2026-11-09 09:56 PST (Pacific)
+
+- Start Fleet work from a prompt, with an automatic project name when omitted. Prepare a computer before choosing a project, then register new projects on the prepared computer.
+- Improve Fleet readiness and recovery: reuse verified provider configuration and existing Bedrock profiles, recognize prepared coordinators and equivalent checkout paths, and confirm task admission before reporting success.
+- Show native progress and clearer recovery guidance throughout Fleet. Show required and available disk space in blocked setup reviews, refresh original setup status, and recover stale computer selections and saved reviews without repeating setup requests.
+- Pin knowledge graph previews with a single click and open groups or categories with a double click. Hide note snippets that repeat the title.
+- Keep the selected SSH host header visible while scrolling its sessions and controls.
+- Make Audit Log recording coverage scrollable and collapsible, and open the correct workspace from an event.
+- Preserve execution columns in compact build lists and keep builds that bypass the queue visible to the build steward.
+
 ## 3.1.0 - 2026-11-08 04:12 PST (Pacific)
 
 - Add Audit Log to review durable workspace, terminal, agent, and remote-runtime events. Search metadata, filter by time and related work, and inspect recording coverage.
