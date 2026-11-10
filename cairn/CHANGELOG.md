@@ -1,5 +1,11 @@
 # Cairn changelog
 
+## 3.1.3 - 2026-11-10 06:53 PST (Pacific)
+
+- Give Cell flowing, pale internal compartments inspired by its workspace panes, with matching macOS, Cell Remote, and website icons.
+- Improve agent setup and session restoration, including saved Copilot and Gemini history and verified Goose and OpenCode sessions.
+- Preserve literal model arguments and SSH connection drafts, and explain unavailable worker recovery.
+
 ## 3.1.2 - 2026-11-10 02:50 PST (Pacific)
 
 - Give Cell a living-cell icon, keeping its muted blue, green, plum, and rust palette. Match Cell Remote's light, dark, and tinted appearances, and rename the wider Dock icon choice to Wide view.
