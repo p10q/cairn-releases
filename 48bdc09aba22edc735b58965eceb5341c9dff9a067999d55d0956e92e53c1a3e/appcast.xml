@@ -3,14 +3,14 @@
     <channel>
         <title>Cell</title>
         <item>
-            <title>3.1.1</title>
-            <pubDate>Mon, 09 Nov 2026 14:43:01 -0800</pubDate>
+            <title>3.1.2</title>
+            <pubDate>Tue, 10 Nov 2026 05:33:24 -0800</pubDate>
             <link>https://p10q.com/#cairn</link>
-            <sparkle:version>125</sparkle:version>
-            <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>3.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cell-3.1.1.dmg" length="388916415" type="application/octet-stream" sparkle:edSignature="VRnAk5fG3DY2JoT8Hehlc+lTzOPMV5H4akQILMPHu9AyI1WNccNLPhle2AOhbyGfk/u4xtMsInNQaz7gubV2CQ=="/>
+            <enclosure url="https://updates.p10q.com/48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cell-3.1.2.dmg" length="388472831" type="application/octet-stream" sparkle:edSignature="s+H++GodD4/mJ8nnL1QEQKBpsbDDwKqE6rCJIqlSlISLVj5a+0k3kdEj8rAxwoqupn0hqffsve4DfCkRRX52Cw=="/>
         </item>
     </channel>
 </rss>

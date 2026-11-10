@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 3.1.2 - 2026-11-10 02:50 PST (Pacific)
+
+- Give Cell a living-cell icon, keeping its muted blue, green, plum, and rust palette. Match Cell Remote's light, dark, and tinted appearances, and rename the wider Dock icon choice to Wide view.
+- Retain older Fleet activity, keep progress readable during slow host operations, and recover unfinished computer setup from its original request.
+- Simplify Fleet work discovery and offer reviewed cleanup of unused computer workspace pools.
+- Improve Notes sync consistency when an offline edit conflicts with a deletion.
+- Avoid repeated Quick Access layout and plugin-list rebuilding, and recover stale Memory Guardian registration when protection is enabled.
+
 ## 3.1.1 - 2026-11-09 09:56 PST (Pacific)
 
 - Start Fleet work from a prompt, with an automatic project name when omitted. Prepare a computer before choosing a project, then register new projects on the prepared computer.
