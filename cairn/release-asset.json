@@ -1,10 +1,10 @@
 {
-  "tag": "macos-3.1.3",
-  "name": "Cell-3.1.3.dmg",
-  "sha256": "10c06d84903bff4f9f27f2d1d9389ccf048ff6239049cbc21943edb153e70342",
-  "length": 388944263,
+  "tag": "macos-3.1.4",
+  "name": "Cell-3.1.4.dmg",
+  "sha256": "066c53d4965734813b1f9b562ba162b6228ea0c94fe138d703859ed05e73453d",
+  "length": 389534523,
   "paths": [
-    "48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cell-3.1.3.dmg",
+    "48bdc09aba22edc735b58965eceb5341c9dff9a067999d55d0956e92e53c1a3e/Cell-3.1.4.dmg",
     "cairn/Cairn-latest.dmg"
   ]
 }

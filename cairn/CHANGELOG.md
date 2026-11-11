@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 3.1.4 - 2026-11-10 17:28 PST (Pacific)
+
+- Reduce startup work by loading Keyboard Map, Keyboard Shortcuts, and the Cell tour only when opened.
+- Add an editable project portfolio and timeline, with larger goals, owners, dependencies, milestones, and undoable changes.
+- Read verified OpenCode conversation history and resume selected native Kilo sessions.
+- Offer setup for more terminal agents, including Antigravity, ECA, Freebuff, and Hermes, with manual setup guidance for nanocoder, omp, qoder, and vtcode.
+- Make Quick Access more compact and open signal graphs with timestamped history.
+- Reuse verified existing host Codex for Fleet setup, and improve remote host, worker, and Fleet recovery while preserving project choices and continuing approved work.
+- Preserve Quick Note drafts and attachments when imports or handoffs fail, and retain sections when navigating linked Markdown.
+- Preserve agent model and prompt arguments during session restoration, while excluding authentication values from saved commands.
+
 ## 3.1.3 - 2026-11-10 06:53 PST (Pacific)
 
 - Give Cell flowing, pale internal compartments inspired by its workspace panes, with matching macOS, Cell Remote, and website icons.
