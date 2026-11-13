@@ -1,5 +1,15 @@
 # Cairn changelog
 
+## 3.1.5 - 2026-11-12 11:57 PST (Pacific)
+
+- Start projects from launch, research, personal goal, and planner walkthrough templates, then refine their plans in chat.
+- Improve project search, inline editing, timeline keyboard navigation, date dragging, undo and redo, and recovery after failed saves while preserving drafts and newer changes.
+- Find panes with search, favorites, recents, and keyboard selection; save custom pane titles, protect panes from closing, and choose their display density.
+- Search live sessions, filter timers, and copy visible session, goal, work, audit, Markdown, and timer summaries.
+- Add AWS execution pools to Fleet v2 as an experimental feature, with deployment controls, verified inputs, conversations, terminals, checkpoints, and result review.
+- Improve Fleet setup, existing Codex adoption, native agent verification, cloud worker diagnostics, approval recovery, and task tracking while preserving saved work and credential ownership.
+- Read saved Kiro conversations and workspace checkpoints, retain native token usage, and resolve Toolbox Kiro to its native executable.
+
 ## 3.1.4 - 2026-11-10 17:28 PST (Pacific)
 
 - Reduce startup work by loading Keyboard Map, Keyboard Shortcuts, and the Cell tour only when opened.
