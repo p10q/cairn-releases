@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 3.1.6 - 2026-11-13 21:43 PST (Pacific)
+
+- Choose how many workspace panes stay side by side before wrapping, with a new setting that defaults to eight panes.
+- Improve Fleet setup and approval recovery, retain current task progress, and continue accepted work when new dispatch is paused.
+- Preserve complete native agent replies, conversation recall, and checkpoints through recovery and pending session registration.
+- Make Fleet stopping and lifecycle checks more reliable, preserve worker ownership across reboots, and bound cost inventory reads.
+- Improve native Kiro sign-in and Toolbox discovery, and isolate developer API authentication and event handling between connections.
+
 ## 3.1.5 - 2026-11-12 11:57 PST (Pacific)
 
 - Start projects from launch, research, personal goal, and planner walkthrough templates, then refine their plans in chat.
