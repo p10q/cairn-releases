@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 3.1.7 - 2026-11-16 04:30 PST (Pacific)
+
+- Follow Fleet setup through a connected progress path showing completed steps, the current step, blockers, and verified readiness.
+- Submit cloud tasks from the Fleet command line, follow their progress and approvals, review verified results, and share reviewed workflows with Cell.
+- Browse conversation history with recorded event times, readable question replies, and a direct return from linked sessions.
+- Improve Fleet setup and maintenance recovery, retain verified preparation and conversations across restarts, and preserve worker ownership and approvals through reconnects.
+- Keep the navigator and Fleet more responsive during refreshes and identity checks, and preserve focus while editing plugin fields.
+
 ## 3.1.6 - 2026-11-13 21:43 PST (Pacific)
 
 - Choose how many workspace panes stay side by side before wrapping, with a new setting that defaults to eight panes.
