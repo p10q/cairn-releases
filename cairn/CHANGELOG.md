@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 3.2.0 - 2026-11-17 18:28 PST (Pacific)
+
+- Follow live sessions with optional summaries, message statistics, conversation previews, and Git history, with elapsed-time and last-update sorting.
+- Reorder notes with dedicated drag handles and a saved order, or move an older note into Today without changing its content or creation date.
+- Edit drawing text directly with a double-click, and follow image generation through queueing, approval waits, elapsed time, and actionable run failures.
+- Set up Fleet with eligible agent defaults, verified Codex model access, and guided recovery for blocked sign-in, region selection, and earlier project preparation.
+- Reopen saved Fleet work at its original run, review retained prompts and results through refreshes, and recover idle services and resolved worker interruptions.
+- Improve Fleet terminal navigation and recovery, preserve workspace artifacts when conversation reads fail, and confirm destructive terminal actions before sending them.
+- Improve keyboard navigation, VoiceOver labels, draft retention, and recovery across the browser, command palette, notes, projects, review panels, themes, and settings.
+- Clear stale navigator error badges when terminal state recovers, and improve responsiveness and reliability across shared app services.
+
 ## 3.1.7 - 2026-11-16 04:30 PST (Pacific)
 
 - Follow Fleet setup through a connected progress path showing completed steps, the current step, blockers, and verified readiness.
