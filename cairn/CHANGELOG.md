@@ -1,5 +1,14 @@
 # Cairn changelog
 
+## 3.2.1 - 2026-11-21 00:00 PST (Pacific)
+
+- Preview saved PDFs, images, and office documents from your Mac in Cell Remote on iPhone and iPad, alongside Markdown, text, and HTML.
+- Work with Fleet projects by directory, keep conversation drafts and results through refreshes, and recover computer setup using current readiness checks.
+- Improve directory suggestions, conversation search, and recovery when a setup phase or saved conversation is no longer available.
+- Center document sheet search and add automatic fitting.
+- Keep note drag handles active while reordering and show insertion positions.
+- Correct status updates for hidden terminals and explain where hidden terminals can be found.
+
 ## 3.2.0 - 2026-11-17 18:28 PST (Pacific)
 
 - Follow live sessions with optional summaries, message statistics, conversation previews, and Git history, with elapsed-time and last-update sorting.
