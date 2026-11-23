@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 3.2.2 - 2026-11-22 13:25 PST (Pacific)
+
+- See running and queued tasks in Fleet tabs, stop or cancel them in place, and reopen completed results after relaunching Cell.
+- See why a computer cannot accept new tasks, recheck its readiness, and open the settings for the computer that needs attention.
+- Keep Fleet drafts and attachments while choosing a project folder, and retry checks when the folder or computer changes.
+- Review Fleet tool updates against the installed version, retry when active work clears, and repair the SSH terminal helper from Remote Hosts.
+- Improve recovery of remote tasks and their results after a connection drops or a coordinator restarts.
+
 ## 3.2.1 - 2026-11-21 00:00 PST (Pacific)
 
 - Preview saved PDFs, images, and office documents from your Mac in Cell Remote on iPhone and iPad, alongside Markdown, text, and HTML.
