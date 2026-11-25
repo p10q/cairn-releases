@@ -1,5 +1,16 @@
 # Cairn changelog
 
+## 4.0.0 - 2026-11-25 00:38 PST (Pacific)
+
+
+- Start Fleet tasks in a project directory on an enrolled computer. Follow them in shared activity and see launch errors and logs from the task tab.
+- Open an existing Fleet agent terminal in a workspace panel so you can inspect or continue the session alongside your other work.
+- Keep track of tasks on each computer during coordinator outages. See which computer owns a run, confirm stops after a lost connection, and recover queued prompts after reinstalling the computer’s Fleet runtime.
+- Review runtime reinstalls and recover interrupted tool updates from Fleet maintenance. See which tasks or workspace files need attention before continuing.
+- Keep saved prompts selectable and copyable. Cell saves new task drafts with the tab and can close a tab while stop or cleanup finishes.
+- Open remote projects in the workspace canvas and get back to your saved dock workspace sooner at launch.
+- Type directly into the spreadsheet search field again.
+
 ## 3.2.2 - 2026-11-22 13:25 PST (Pacific)
 
 - See running and queued tasks in Fleet tabs, stop or cancel them in place, and reopen completed results after relaunching Cell.
