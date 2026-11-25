@@ -1,5 +1,13 @@
 # Cairn changelog
 
+## 4.0.1 - 2026-11-25 07:53 PST (Pacific)
+
+- Browse, preview, and download project files from a Fleet task.
+- See coordinator and computer capacity, active runs, and recent task actions in Fleet Activity. Open a computer in Desktops from the same view.
+- Remove one or more projects from the Fleet list while keeping their workspaces and files. Restore them when needed.
+- Reduce repeated work when loading Fleet activity and saved tabs, browsing session history, and refreshing workspace lists.
+- Keep the app responsive when a remote agent connection is torn down.
+
 ## 4.0.0 - 2026-11-25 00:38 PST (Pacific)
 
 
