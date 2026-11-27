@@ -1,5 +1,9 @@
 # Cairn changelog
 
+## 4.0.2 - 2026-11-27 11:12 PST (Pacific)
+
+- Fix a loop where paired Mac workers repeatedly disconnected after the jump host accepted their connection.
+
 ## 4.0.1 - 2026-11-25 07:53 PST (Pacific)
 
 - Browse, preview, and download project files from a Fleet task.
